@@ -1,15 +1,15 @@
 [
   {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
-    "section": "",
-    "text": "About this site\n\n1 + 1\n\n[1] 2"
+    "objectID": "about.html#education",
+    "href": "about.html#education",
+    "title": "Michael Howe, PhD",
+    "section": "Education",
+    "text": "Education\n\nUniversity of Wisconsin-Madison\nPhD in Entomology, 2020\nMS in Biometry, 2020\nMS in Entomology, 2017\n\n\nGustavus Adolphus College\nBA in Biology, 2014"
   },
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "website",
+    "title": "Michael Howe",
     "section": "",
     "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites.\n\n1 + 1\n\n[1] 2"
   }
