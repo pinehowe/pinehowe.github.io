@@ -1,16 +1,170 @@
 [
   {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
-    "section": "",
-    "text": "About this site\n\n1 + 1\n\n[1] 2"
+    "objectID": "about.html#education",
+    "href": "about.html#education",
+    "title": "Michael Howe, PhD",
+    "section": "Education",
+    "text": "Education\n\nUniversity of Wisconsin-Madison\nPhD in Entomology, 2020\nMS in Biometry, 2020\nMS in Entomology, 2017\n\n\nGustavus Adolphus College\nBA in Biology, 2014"
   },
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "website",
+    "title": "Michael Howe, PhD",
     "section": "",
-    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites.\n\n1 + 1\n\n[1] 2"
+    "text": "My research focuses on how weather, climate, and landscapes affect forest insect herbivores, disturbances, and forest ecosystems. I’m especially interested in when, where, and how insect outbreaks occur and whether outbreak dynamics will be affected by land-use and climate change.\n\n\n\n\n\n\n\nR \nMachine Learning \nForest Entomology \nForest Ecology \nDisturbance  x \nClimate Change \n\n\n\n\n\n\nNordic skiing \nmountain biking \ntrail running \nsoccer \ntravel \nmountains \n\n\n\n\n\n\n\nOak Ridge Institute for Science & Education\nJuneau Forestry Sciences Laboratory, Pacific Northwest Research Station, USDA Forest Service, Juneau, Alaska\n\n\n\n\n\n\n\nPhD in Entomology, 2020\nMS in Biometry, 2020\nMS in Entomology, 2017\n\n\n\n\n\nBA in Biology, 2014\n\n\n\n\n\n\n\n\n\n\n\n\n2022-Present\nPostdoctoral Researcher (ORISE/Juneau Forestry Sciences Laboratory)\n\n\n2021-2022\nPostdoctoral Researcher, University of Wisconsin-Madison\n\n\n2021\nSilviculture Instructor of Record, University of Wisconsin-Madison\n\n\n2014-2020\nGraduate Student, University of Wisconsin-Madison"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "Michael Howe, PhD",
+    "section": "",
+    "text": "My research focuses on how weather, climate, and landscapes affect forest insect herbivores, disturbances, and forest ecosystems. I’m especially interested in when, where, and how insect outbreaks occur and whether outbreak dynamics will be affected by land-use and climate change.\n\n\n\n\n\n\n\nR \nMachine Learning \nForest Entomology \nForest Ecology \nDisturbance  x \nClimate Change \n\n\n\n\n\n\nNordic skiing \nmountain biking \ntrail running \nsoccer \ntravel \nmountains \n\n\n\n\n\n\n\nOak Ridge Institute for Science & Education\nJuneau Forestry Sciences Laboratory, Pacific Northwest Research Station, USDA Forest Service, Juneau, Alaska\n\n\n\n\n\n\n\nPhD in Entomology, 2020\nMS in Biometry, 2020\nMS in Entomology, 2017\n\n\n\n\n\nBA in Biology, 2014\n\n\n\n\n\n\n\n\n\n\n\n\n2022-Present\nPostdoctoral Researcher (ORISE/Juneau Forestry Sciences Laboratory)\n\n\n2021-2022\nPostdoctoral Researcher, University of Wisconsin-Madison\n\n\n2021\nSilviculture Instructor of Record, University of Wisconsin-Madison\n\n\n2014-2020\nGraduate Student, University of Wisconsin-Madison"
+  },
+  {
+    "objectID": "about.html#research-interests",
+    "href": "about.html#research-interests",
+    "title": "Michael Howe, PhD",
+    "section": "",
+    "text": "My research focuses on how weather, climate, and landscapes affect forest insect herbivores, disturbances, and forest ecosystems. I’m especially interested in when, where, and how insect outbreaks occur and whether outbreak dynamics will be affected by land-use and climate change.\n\n\n\n\n\n\n\nR \nMachine Learning \nForest Entomology \nForest Ecology \nDisturbance  x \nClimate Change \n\n\n\n\n\n\nNordic skiing \nmountain biking \ntrail running \nsoccer \ntravel \nmountains \n\n\n\n\n\n\n\nOak Ridge Institute for Science & Education\nJuneau Forestry Sciences Laboratory, Pacific Northwest Research Station, USDA Forest Service, Juneau, Alaska\n\n\n\n\n\n\n\nPhD in Entomology, 2020\nMS in Biometry, 2020\nMS in Entomology, 2017\n\n\n\n\n\nBA in Biology, 2014\n\n\n\n\n\n\n\n\n\n\n\n\n2022-Present\nPostdoctoral Researcher (ORISE/Juneau Forestry Sciences Laboratory)\n\n\n2021-2022\nPostdoctoral Researcher, University of Wisconsin-Madison\n\n\n2021\nSilviculture Instructor of Record, University of Wisconsin-Madison\n\n\n2014-2020\nGraduate Student, University of Wisconsin-Madison"
+  },
+  {
+    "objectID": "about.html#professional-skills",
+    "href": "about.html#professional-skills",
+    "title": "Michael Howe, PhD",
+    "section": "Professional Skills",
+    "text": "Professional Skills\n\nR {{&lt;fa code&gt;}}"
+  },
+  {
+    "objectID": "about.html#contact-me",
+    "href": "about.html#contact-me",
+    "title": "Michael Howe, PhD",
+    "section": "",
+    "text": "links: - icon: github text: Github href: https://github.com/pinehowe\n- icon: \n  text: Google Scholar\n  href: https://scholar.google.com/citations?user=ysT0434AAAAJ&hl=en\n- icon: research gate\n  text: ResearchGate\n  href: https://www.researchgate.net/profile/Michael-Howe\n- text: USDA Email\n  href: mailto:Michael.Howe@usda.gov"
+  },
+  {
+    "objectID": "about.html#trial",
+    "href": "about.html#trial",
+    "title": "Michael Howe, PhD",
+    "section": "trial",
+    "text": "trial"
+  },
+  {
+    "objectID": "about.html#external-websites",
+    "href": "about.html#external-websites",
+    "title": "Michael Howe, PhD",
+    "section": "",
+    "text": "Email Us!"
+  },
+  {
+    "objectID": "about.html#contact-external-links",
+    "href": "about.html#contact-external-links",
+    "title": "Michael Howe, PhD",
+    "section": "",
+    "text": "Email Me (@usda.gov)\n\n Google Scholar"
+  },
+  {
+    "objectID": "about.html#contact",
+    "href": "about.html#contact",
+    "title": "Michael Howe, PhD",
+    "section": "Contact",
+    "text": "Contact\n Email Me (@usda.gov)"
+  },
+  {
+    "objectID": "about.html#check-out-my-work",
+    "href": "about.html#check-out-my-work",
+    "title": "Michael Howe, PhD",
+    "section": "Check out my work!",
+    "text": "Check out my work!\n ORCID\n ResearchGate\n Google Scholar"
+  },
+  {
+    "objectID": "about.html#professional-skill",
+    "href": "about.html#professional-skill",
+    "title": "Michael Howe, PhD",
+    "section": "Professional Skill",
+    "text": "Professional Skill"
+  },
+  {
+    "objectID": "about.html#research-interests-1",
+    "href": "about.html#research-interests-1",
+    "title": "Michael Howe, PhD",
+    "section": "Research Interests",
+    "text": "Research Interests"
+  },
+  {
+    "objectID": "about.html#research-interests-2",
+    "href": "about.html#research-interests-2",
+    "title": "Michael Howe, PhD",
+    "section": "Research Interests",
+    "text": "Research Interests"
+  },
+  {
+    "objectID": "about.html#research-interests-3",
+    "href": "about.html#research-interests-3",
+    "title": "Michael Howe, PhD",
+    "section": "Research Interests",
+    "text": "Research Interests"
+  },
+  {
+    "objectID": "about.html#education-1",
+    "href": "about.html#education-1",
+    "title": "Michael Howe, PhD",
+    "section": "Education",
+    "text": "Education\n\nUniversity of Wisconsin-Madison\nPhD in Entomology, 2020\nMS in Biometry, 2020\nMS in Entomology, 2017\n\n\nGustavus Adolphus College\nBA in Biology, 2014"
+  },
+  {
+    "objectID": "index.html#research-interests",
+    "href": "index.html#research-interests",
+    "title": "Michael Howe, PhD",
+    "section": "",
+    "text": "My research focuses on how weather, climate, and landscapes affect forest insect herbivores, disturbances, and forest ecosystems. I’m especially interested in when, where, and how insect outbreaks occur and whether outbreak dynamics will be affected by land-use and climate change.\n\n\n\n\n\n\n\nR \nMachine Learning \nForest Entomology \nForest Ecology \nDisturbance  x \nClimate Change \n\n\n\n\n\n\nNordic skiing \nmountain biking \ntrail running \nsoccer \ntravel \nmountains \n\n\n\n\n\n\n\nOak Ridge Institute for Science & Education\nJuneau Forestry Sciences Laboratory, Pacific Northwest Research Station, USDA Forest Service, Juneau, Alaska\n\n\n\n\n\n\n\nPhD in Entomology, 2020\nMS in Biometry, 2020\nMS in Entomology, 2017\n\n\n\n\n\nBA in Biology, 2014\n\n\n\n\n\n\n\n\n\n\n\n\n2022-Present\nPostdoctoral Researcher (ORISE/Juneau Forestry Sciences Laboratory)\n\n\n2021-2022\nPostdoctoral Researcher, University of Wisconsin-Madison\n\n\n2021\nSilviculture Instructor of Record, University of Wisconsin-Madison\n\n\n2014-2020\nGraduate Student, University of Wisconsin-Madison"
+  },
+  {
+    "objectID": "index.html#check-out-my-work",
+    "href": "index.html#check-out-my-work",
+    "title": "Michael Howe, PhD",
+    "section": "Check out my work!",
+    "text": "Check out my work!\n ORCID\n ResearchGate\n Google Scholar"
+  },
+  {
+    "objectID": "interests.html",
+    "href": "interests.html",
+    "title": "Research Interests",
+    "section": "",
+    "text": "Population irruptions (i.e., outbreaks) by native forest insect herbivores are a leading cause of disturbance across forested landscapes. The extent and severity of these outbreaks, whether caused by sawflies, caterpillars, or bark beetles, are affected by both the long-term effects of climate and the short-term effects of fluctuating weather. As a result, outbreaks by forest are highly sensitive to climatic change.\n\n\n\n\n\nHemlock sawfly & western blackheaded budworm defoliation in Southeast Alaska; Photo: M. Howe 2022\n\n\nPopulation irruptions (i.e., outbreaks) by native forest insect herbivores are a leading cause of disturbance across forested landscapes. The extent and severity of these outbreaks, whether caused by sawflies, caterpillars, or bark beetles, are mediated by both the long-term effects of climate and the short-term effects of fluctuating weather. As a result, outbreaks by forest are highly sensitive to climatic change.\n\n\n\nPredicted likelihood that hemlock–spruce forestlands could support irruptive populations of western blackheaded budworm between 2011–2020 across the Pacific coastal temperate rainforest. Adopted from Howe et al. 2024, Ecography\n\n\n\n\n\n\n\nSpruce beetle outbreak distribution (late 2024)\nLatitudinal distribution of Spongy moth outbreaks (late 2024)\nImpacts of spruce beetle development rate on outbreak likelihood (early 2025)\nForest Ecology \nDisturbance  x \nClimate Change \n\n\n\n\n\n\nNordic skiing \nmountain biking \ntrail running \nsoccer \ntravel \nmountains"
+  },
+  {
+    "objectID": "interests.html#outbreak-dynamics-of-forest-insect-herbivores",
+    "href": "interests.html#outbreak-dynamics-of-forest-insect-herbivores",
+    "title": "Research Interests",
+    "section": "",
+    "text": "Population irruptions (i.e., outbreaks) by native forest insect herbivores are a leading cause of disturbance across forested landscapes. The extent and severity of these outbreaks, whether caused by sawflies, caterpillars, or bark beetles, are affected by both the long-term effects of climate and the short-term effects of fluctuating weather. As a result, outbreaks by forest are highly sensitive to climatic change.\n\n\n\n\n\nHemlock sawfly & western blackheaded budworm defoliation in Southeast Alaska; Photo: M. Howe 2022\n\n\nPopulation irruptions (i.e., outbreaks) by native forest insect herbivores are a leading cause of disturbance across forested landscapes. The extent and severity of these outbreaks, whether caused by sawflies, caterpillars, or bark beetles, are mediated by both the long-term effects of climate and the short-term effects of fluctuating weather. As a result, outbreaks by forest are highly sensitive to climatic change.\n\n\n\nPredicted likelihood that hemlock–spruce forestlands could support irruptive populations of western blackheaded budworm between 2011–2020 across the Pacific coastal temperate rainforest. Adopted from Howe et al. 2024, Ecography\n\n\n\n\n\n\n\nSpruce beetle outbreak distribution (late 2024)\nLatitudinal distribution of Spongy moth outbreaks (late 2024)\nImpacts of spruce beetle development rate on outbreak likelihood (early 2025)\nForest Ecology \nDisturbance  x \nClimate Change \n\n\n\n\n\n\nNordic skiing \nmountain biking \ntrail running \nsoccer \ntravel \nmountains"
+  },
+  {
+    "objectID": "interests.html#disturbance-interactions",
+    "href": "interests.html#disturbance-interactions",
+    "title": "Research Interests",
+    "section": "2) Disturbance interactions",
+    "text": "2) Disturbance interactions"
+  },
+  {
+    "objectID": "interests.html#section",
+    "href": "interests.html#section",
+    "title": "Research Interests",
+    "section": "3)",
+    "text": "3)\n\n\n\nR \nMachine Learning \nForest Entomology \nForest Ecology \nDisturbance  x \nClimate Change \n\n\n\nPersonal Interests:\n\nNordic skiing \nmountain biking \ntrail running \nsoccer \ntravel \nmountains"
+  },
+  {
+    "objectID": "interests.html#climate-change-ecology",
+    "href": "interests.html#climate-change-ecology",
+    "title": "Research Interests",
+    "section": "3) Climate change ecology",
+    "text": "3) Climate change ecology\n\n\n\nR \nMachine Learning \nForest Entomology \nForest Ecology \nDisturbance  x \nClimate Change \n\n\n\nPersonal Interests:\n\nNordic skiing \nmountain biking \ntrail running \nsoccer \ntravel \nmountains"
+  },
+  {
+    "objectID": "interests.html#climate-mediated-range-expansions-of-native-herbivores",
+    "href": "interests.html#climate-mediated-range-expansions-of-native-herbivores",
+    "title": "Research Interests",
+    "section": "2) Climate-mediated range expansions of native herbivores",
+    "text": "2) Climate-mediated range expansions of native herbivores"
   }
 ]

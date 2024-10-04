@@ -3,18 +3,39 @@ project:
   output-dir: docs
 
 website:
-  title: "website"
+  title: "Michael Howe"
   navbar:
-    left:
-      - href: index.qmd
-        text: Home
-      - about.qmd
+    background: "#519E8A"
+    search: true
+    right:
+      - text: "About"
+        href: about.qmd
+      - text: "Research Interests"
+        href: interests.qmd
+      - text: "Projects"
+        href: projects.qmd
+      - text: "Publications"
+        href: publications.qmd
+      - text: "Presentations"
+        href: talks.qmd
+      - text: "Data Viz & Tutorials"
+        href: posts.qmd
+      - text: "CV"
+        href: howe.pdf
+  page-footer:
+    background: light # or `dark`
+    left: Copyright 2024, Michael Howe
+    right: This website is built with {{< fa heart title="a heart" >}}, [{{< fa brands github title="GitHub octocat logo" >}}](https://github.com/pinehowe/pinehowe.github.io){target=_blank}, [{{< fa brands r-project title="R Project" >}}](https://www.r-project.org/about.html){target=_blank} and [Quarto](https://quarto.org/){target=_blank}
+
 
 format:
   html:
-    theme: Darkly
-    css: styles.css
-    toc: true
+   theme:
+    dark: darkly
+    light: minty
+   css: styles.css
+   toc: true
+   page-layout: full
 
 editor: visual
 

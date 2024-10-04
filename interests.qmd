@@ -1,0 +1,67 @@
+---
+title: "Research Interests"
+---
+
+## 1) Outbreak dynamics of forest insect herbivores
+
+Population irruptions (*i.e.*, outbreaks) by native forest insect herbivores are a leading cause of disturbance across forested landscapes. The extent and severity of these outbreaks, whether caused by sawflies, caterpillars, or bark beetles, are affected by both the long-term effects of climate and the short-term effects of fluctuating weather. As a result, outbreaks by forest are highly sensitive to climatic change.
+
+### A)  
+
+![Hemlock sawfly & western blackheaded budworm defoliation in Southeast Alaska; Photo: M. Howe 2022](ads.jpg)
+
+Population irruptions (*i.e.*, outbreaks) by native forest insect herbivores are a leading cause of disturbance across forested landscapes. The extent and severity of these outbreaks, whether caused by sawflies, caterpillars, or bark beetles, are mediated by both the long-term effects of climate and the short-term effects of fluctuating weather. As a result, outbreaks by forest are highly sensitive to climatic change.
+
+![Predicted likelihood that hemlock–spruce forestlands could support irruptive populations of western blackheaded budworm between 2011–2020 across the Pacific coastal temperate rainforest. Adopted from Howe et al. 2024, Ecography](F4.jpg){fig-align="center"}
+
+::: columns
+::: {.column width="50%"}
+##### Active Projects
+
+-   Spruce beetle outbreak distribution (late 2024)
+-   Latitudinal distribution of Spongy moth outbreaks (late 2024)
+-   Impacts of spruce beetle development rate on outbreak likelihood (early 2025)
+-   Forest Ecology {{<fa tree>}}
+-   Disturbance {{< fa fire >}} x {{< fa bug >}}
+-   Climate Change {{< fa sun-plant-wilt >}}
+:::
+
+::: {.column width="50%"}
+##### Published Projects
+
+-   Nordic skiing {{< fa person-skiing-nordic >}}
+-   mountain biking {{< fa person-biking >}}
+-   trail running {{<fa person-running>}}
+-   soccer {{< fa futbol >}}
+-   travel {{< fa plane-departure >}}
+-   mountains {{<fa mountain-sun>}}
+:::
+:::
+
+## 2) Climate-mediated range expansions of native herbivores
+
+## 2) Disturbance interactions
+
+## 3) Climate change ecology
+
+::: columns
+::: {.column width="50%"}
+-   R {{< fa code >}}
+-   Machine Learning {{< fa sitemap >}}
+-   Forest Entomology {{<fa locust>}}
+-   Forest Ecology {{<fa tree>}}
+-   Disturbance {{< fa fire >}} x {{< fa bug >}}
+-   Climate Change {{< fa sun-plant-wilt >}}
+:::
+
+::: {.column width="50%"}
+##### Personal Interests:
+
+-   Nordic skiing {{< fa person-skiing-nordic >}}
+-   mountain biking {{< fa person-biking >}}
+-   trail running {{<fa person-running>}}
+-   soccer {{< fa futbol >}}
+-   travel {{< fa plane-departure >}}
+-   mountains {{<fa mountain-sun>}}
+:::
+:::

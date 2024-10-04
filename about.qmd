@@ -1,9 +1,83 @@
 ---
-title: "About"
+title: "Michael Howe, PhD"
+subtitle: "Forest Entomologist & Disturbance Ecologist"
+about:
+  template: trestles
+  image: mike.jpg
+  image-shape: round
+  links: 
+    - icon: github
+      text: Github
+      href: https://github.com/pinehowe
+    - icon: envelope
+      text: Email
+      href: mailto:Michael.Howe@usda.gov
 ---
 
-About this site
+## Research Interests
 
-```{r}
-1 + 1
-```
+My research focuses on how weather, climate, and landscapes affect forest insect herbivores, disturbances, and forest ecosystems. I'm especially interested in when, where, and how insect outbreaks occur and whether outbreak dynamics will be affected by land-use and climate change.
+
+### About Me
+
+::: columns
+::: {.column width="50%"}
+##### Research & Skills:
+
+-   R {{< fa code >}}
+-   Machine Learning {{< fa sitemap >}}
+-   Forest Entomology {{<fa locust>}}
+-   Forest Ecology {{<fa tree>}}
+-   Disturbance {{< fa fire >}} x {{< fa bug >}}
+-   Climate Change {{< fa sun-plant-wilt >}}
+:::
+
+::: {.column width="50%"}
+##### Personal Interests:
+
+-   Nordic skiing {{< fa person-skiing-nordic >}}
+-   mountain biking {{< fa person-biking >}}
+-   trail running {{<fa person-running>}}
+-   soccer {{< fa futbol >}}
+-   travel {{< fa plane-departure >}}
+-   mountains {{<fa mountain-sun>}}
+
+:::
+:::
+
+#### Affiliations
+
+-   Oak Ridge Institute for Science & Education
+
+-   Juneau Forestry Sciences Laboratory, Pacific Northwest Research Station, USDA Forest Service, Juneau, Alaska
+
+#### Education
+
+##### University of Wisconsin-Madison
+
+-   PhD in Entomology, 2020
+
+-   MS in Biometry, 2020
+
+-   MS in Entomology, 2017
+
+##### Gustavus Adolphus College
+
+-   BA in Biology, 2014
+
+#### Professional Appointments
+
+|              |                                                                     |
+|----------------|--------------------------------------------------------|
+| 2022-Present | Postdoctoral Researcher (ORISE/Juneau Forestry Sciences Laboratory) |
+| 2021-2022    | Postdoctoral Researcher, University of Wisconsin-Madison            |
+| 2021         | Silviculture Instructor of Record, University of Wisconsin-Madison  |
+| 2014-2020    | Graduate Student, University of Wisconsin-Madison                   |
+
+## Check out my work!
+
+[{{< ai orcid >}}](https://orcid.org/0000-0002-9694-0835) ORCID
+
+[{{< ai researchgate size=Large >}}](https://www.researchgate.net/profile/Michael-Howe) ResearchGate
+
+[{{< ai google-scholar size=Large >}}](https://scholar.google.com/citations?user=ysT0434AAAAJ&hl=en) Google Scholar
