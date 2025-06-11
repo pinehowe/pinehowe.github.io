@@ -1,0 +1,57 @@
+{
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {},
+      "source": [
+        "---\n",
+        "# title:\n",
+        "image: icon_small.png\n",
+        "\n",
+        "toc: false\n",
+        "about: \n",
+        "  template: trestles\n",
+        "  image-shape: rectangle\n",
+        "  image-width: 25rem\n",
+        "  links:\n",
+        "    - icon: bluesky\n",
+        "      text: \"{{< iconify fa6-brands bluesky size=1.1em title='Bluesky' >}} Bluesky\"\n",
+        "      href: https://bsky.app/profile/mchowe.bsky.social\n",
+        "    - icon: github\n",
+        "      text: GitHub\n",
+        "      href: https://github.com/pinehowe\n",
+        "    - icon: envelope\n",
+        "      text: Email\n",
+        "      href: mailto:mike.howe@usu.edu\n",
+        "---\n",
+        "\n",
+        "```{html}\n",
+        "<style>\n",
+        "  body {\n",
+        "  background-image: url(\"https://github.com/pinehowe/pinehowe.github.io/blob/main/photos/spruce.jpg\");\n",
+        "  background-size: cover;\n",
+        "  background-repeat: no-repeat;\n",
+        "}\n",
+        "</style>\n",
+        "```\n",
+        "\n",
+        "\n",
+        "<p class=\"white-text\">\n",
+        "\n",
+        "Welcome to the <strong>Forest Insect and Disturbance Lab</strong> at Utah State University. We study how...\n",
+        "\n",
+        "</p>"
+      ],
+      "id": "8eca899f"
+    }
+  ],
+  "metadata": {
+    "kernelspec": {
+      "display_name": "Python 3",
+      "language": "python",
+      "name": "python3"
+    }
+  },
+  "nbformat": 4,
+  "nbformat_minor": 5
+}
