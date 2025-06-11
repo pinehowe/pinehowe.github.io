@@ -1,9 +1,9 @@
 ---
-title: "Author"
-image: profile.png
+title: "About the Lab"
+image: logo1.png
 about:
   id: hero-heading
-  template: trestles
+  template: jolla
   image-shape: rectangle
   links:
     - icon: twitter
@@ -17,34 +17,19 @@ about:
       href: https://github.com
 ---
 
-:::callout-note
-## Template for about page
-
-It is possible to use different templates for the About page. Check this [link](https://quarto.org/docs/websites/website-about.html) to find out more.
-
-:::
-
-
-::: {#hero-heading}
-
-I am a researcher at University of Oslo. 
-
-My work is about Electronic Health Records.
+<style>
+  body {
+  background-image: url("rainbow.jpg");
+  box-shadow: inset 0 0 0 1000px rgba(0,0,0,.6);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+</style>
 
 
-## Education 
+<p class="white-text">
 
-University of Oslo | Oslo, Norway
+Welcome to the <strong>Forest Insect and Disturbance Lab</strong> at Utah State University. We study how...
 
-PhD in Biostatistics | Oct 2022
-
-University of Oslo | Oslo, Norway
-
-MSc in Statistics | June 2018
-
-## Experience
-
-I have developed X R packages, published Y papers. 
-
-:::
+</p>
 

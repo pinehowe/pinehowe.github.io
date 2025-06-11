@@ -2,9 +2,9 @@
   {
     "objectID": "about.html",
     "href": "about.html",
-    "title": "Author",
+    "title": "About the Lab",
     "section": "",
-    "text": "Template for about page\n\n\n\nIt is possible to use different templates for the About page. Check this link to find out more."
+    "text": "Welcome to the Forest Insect and Disturbance Lab at Utah State University. We study how…"
   },
   {
     "objectID": "about.html#education",
@@ -93,9 +93,9 @@
   {
     "objectID": "projects.html",
     "href": "projects.html",
-    "title": "Author",
+    "title": "Research",
     "section": "",
-    "text": "Template for about page\n\n\n\nIt is possible to use different templates for the About page. Check this link to find out more."
+    "text": "Population irruptions (i.e., outbreaks) by native forest insect herbivores are a leading cause of disturbance across forested landscapes. The extent and severity of these outbreaks, whether caused by sawflies, caterpillars, or bark beetles, are affected by both the long-term effects of climate and the short-term effects of fluctuating weather. As a result, outbreaks by forest are highly sensitive to climatic change.\n\n\n\n\n\nHemlock sawfly & western blackheaded budworm defoliation in Southeast Alaska; Photo: M. Howe 2022\n\n\nPopulation irruptions (i.e., outbreaks) by native forest insect herbivores are a leading cause of disturbance across forested landscapes. The extent and severity of these outbreaks, whether caused by sawflies, caterpillars, or bark beetles, are mediated by both the long-term effects of climate and the short-term effects of fluctuating weather. As a result, outbreaks by forest are highly sensitive to climatic change.\n\n\n\nPredicted likelihood that hemlock–spruce forestlands could support irruptive populations of western blackheaded budworm between 2011–2020 across the Pacific coastal temperate rainforest. Adopted from Howe et al. 2024, Ecography\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nSpruce beetle outbreak distribution (late 2024)\nLatitudinal distribution of Spongy moth outbreaks (late 2024)\nImpacts of spruce beetle development rate on outbreak likelihood (early 2025)\nForest Ecology \nDisturbance  x \nClimate Change \n\n\n\n\n\n\nNordic skiing \nmountain biking \ntrail running \nsoccer \ntravel \nmountains"
   },
   {
     "objectID": "projects.html#education",
@@ -131,5 +131,33 @@
     "title": "Author",
     "section": "Experience",
     "text": "Experience\nI have developed X R packages, published Y papers."
+  },
+  {
+    "objectID": "projects.html#outbreak-dynamics-of-forest-insect-herbivores",
+    "href": "projects.html#outbreak-dynamics-of-forest-insect-herbivores",
+    "title": "Research",
+    "section": "",
+    "text": "Population irruptions (i.e., outbreaks) by native forest insect herbivores are a leading cause of disturbance across forested landscapes. The extent and severity of these outbreaks, whether caused by sawflies, caterpillars, or bark beetles, are affected by both the long-term effects of climate and the short-term effects of fluctuating weather. As a result, outbreaks by forest are highly sensitive to climatic change.\n\n\n\n\n\nHemlock sawfly & western blackheaded budworm defoliation in Southeast Alaska; Photo: M. Howe 2022\n\n\nPopulation irruptions (i.e., outbreaks) by native forest insect herbivores are a leading cause of disturbance across forested landscapes. The extent and severity of these outbreaks, whether caused by sawflies, caterpillars, or bark beetles, are mediated by both the long-term effects of climate and the short-term effects of fluctuating weather. As a result, outbreaks by forest are highly sensitive to climatic change.\n\n\n\nPredicted likelihood that hemlock–spruce forestlands could support irruptive populations of western blackheaded budworm between 2011–2020 across the Pacific coastal temperate rainforest. Adopted from Howe et al. 2024, Ecography\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nSpruce beetle outbreak distribution (late 2024)\nLatitudinal distribution of Spongy moth outbreaks (late 2024)\nImpacts of spruce beetle development rate on outbreak likelihood (early 2025)\nForest Ecology \nDisturbance  x \nClimate Change \n\n\n\n\n\n\nNordic skiing \nmountain biking \ntrail running \nsoccer \ntravel \nmountains"
+  },
+  {
+    "objectID": "projects.html#disturbance-interactions",
+    "href": "projects.html#disturbance-interactions",
+    "title": "Research",
+    "section": "2) Disturbance interactions",
+    "text": "2) Disturbance interactions"
+  },
+  {
+    "objectID": "projects.html#climate-change-ecology",
+    "href": "projects.html#climate-change-ecology",
+    "title": "Research",
+    "section": "3) Climate change ecology",
+    "text": "3) Climate change ecology"
+  },
+  {
+    "objectID": "projects.html#insect-tree-interactions",
+    "href": "projects.html#insect-tree-interactions",
+    "title": "Research",
+    "section": "4) Insect-Tree Interactions",
+    "text": "4) Insect-Tree Interactions\n\n\n\nR \nMachine Learning \nForest Entomology \nForest Ecology \nDisturbance  x \nClimate Change \n\n\n\nPersonal Interests:\n\nNordic skiing \nmountain biking \ntrail running \nsoccer \ntravel \nmountains"
   }
 ]
