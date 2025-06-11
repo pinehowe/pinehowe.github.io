@@ -30,10 +30,10 @@ website:
 
 format:
   html:
-    theme:
-      dark: darkly
-      light: minty
-    css: styles.css
+    theme: styles.scss
+      #dark: darkly
+      #light: minty
+    #css: styles.css
     toc: true
     mainfont: Reddit Mono
     page-layout: full

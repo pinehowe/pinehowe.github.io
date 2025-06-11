@@ -21,7 +21,7 @@ about:
 
 <style>
   body {
-  background-image: url("https://github.com/jhemberger/jhemberger.github.io/blob/master/images/photography/insects/IMG_2085.jpg");
+  background-image: spruce.jpg;
   box-shadow: inset 0 0 0 1000px rgba(0,0,0,.6);
   background-size: cover;
   background-repeat: no-repeat;
