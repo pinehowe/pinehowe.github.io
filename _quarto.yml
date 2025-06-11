@@ -3,6 +3,7 @@ project:
   output-dir: docs
 
 website:
+  google-analytics: "G-FYLWY5C3EV"
   title: "The Forest Insect and Disturbance Lab"
   favicon: icon_small.png # NOTE: that the `favicon` is a `website` level option (not under `navbar`)
   navbar:
@@ -21,8 +22,7 @@ website:
         href: talks.qmd
       - text: "Modeling w/Mike"
         href: models.qmd
-  google-analytics: "G-FYLWY5C3EV"
-        
+
   page-footer:
     left: "&copy; Copyright 2025, Michael Howe"
     right: This website is built with {{< fa heart title="a heart" >}}, [{{< fa brands github title="GitHub octocat logo" >}}](https://github.com/pinehowe/pinehowe.github.io){target=_blank}, [{{< fa brands r-project title="R Project" >}}](https://www.r-project.org/about.html){target=_blank} and [Quarto](https://quarto.org/){target=_blank}
