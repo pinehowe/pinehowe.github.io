@@ -21,6 +21,7 @@ website:
         href: talks.qmd
       - text: "Modeling w/Mike"
         href: models.qmd
+  google-analytics: "G-FYLWY5C3EV"
         
   page-footer:
     left: "&copy; Copyright 2025, Michael Howe"
