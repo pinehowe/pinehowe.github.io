@@ -4,7 +4,7 @@ project:
 
 website:
   title: "The Forest Insect and Disturbance Lab"
-   # subtitle: "Utah State University"
+  favicon: icon_small.png # NOTE: that the `favicon` is a `website` level option (not under `navbar`)
   navbar:
     background: "#439775"
     search: true
