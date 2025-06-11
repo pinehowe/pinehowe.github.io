@@ -1,6 +1,6 @@
 ---
 # title:
-image: icon_small.png
+image: logo1.png
 
 toc: false
 about: 
