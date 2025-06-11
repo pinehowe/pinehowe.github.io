@@ -1,0 +1,135 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "The Forest Insect and Disturbance Lab",
+    "section": "",
+    "text": "Welcome fo the Forest Insect and Disturbance Lab at Utah State University. We study how…"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "Author",
+    "section": "",
+    "text": "Template for about page\n\n\n\nIt is possible to use different templates for the About page. Check this link to find out more."
+  },
+  {
+    "objectID": "about.html#education",
+    "href": "about.html#education",
+    "title": "Author",
+    "section": "Education",
+    "text": "Education\nUniversity of Oslo | Oslo, Norway\nPhD in Biostatistics | Oct 2022\nUniversity of Oslo | Oslo, Norway\nMSc in Statistics | June 2018"
+  },
+  {
+    "objectID": "about.html#experience",
+    "href": "about.html#experience",
+    "title": "Author",
+    "section": "Experience",
+    "text": "Experience\nI have developed X R packages, published Y papers."
+  },
+  {
+    "objectID": "projects/index.html",
+    "href": "projects/index.html",
+    "title": "Projects",
+    "section": "",
+    "text": "A description of Project"
+  },
+  {
+    "objectID": "projects/index.html#project-i",
+    "href": "projects/index.html#project-i",
+    "title": "Projects",
+    "section": "",
+    "text": "A description of Project"
+  },
+  {
+    "objectID": "projects/index.html#project-ii",
+    "href": "projects/index.html#project-ii",
+    "title": "Projects",
+    "section": "Project II",
+    "text": "Project II\nA description of Project"
+  },
+  {
+    "objectID": "publications.html",
+    "href": "publications.html",
+    "title": "Author",
+    "section": "",
+    "text": "Template for about page\n\n\n\nIt is possible to use different templates for the About page. Check this link to find out more."
+  },
+  {
+    "objectID": "publications.html#education",
+    "href": "publications.html#education",
+    "title": "Author",
+    "section": "Education",
+    "text": "Education\nUniversity of Oslo | Oslo, Norway\nPhD in Biostatistics | Oct 2022\nUniversity of Oslo | Oslo, Norway\nMSc in Statistics | June 2018"
+  },
+  {
+    "objectID": "publications.html#experience",
+    "href": "publications.html#experience",
+    "title": "Author",
+    "section": "Experience",
+    "text": "Experience\nI have developed X R packages, published Y papers."
+  },
+  {
+    "objectID": "models.html",
+    "href": "models.html",
+    "title": "Author",
+    "section": "",
+    "text": "Template for about page\n\n\n\nIt is possible to use different templates for the About page. Check this link to find out more."
+  },
+  {
+    "objectID": "models.html#education",
+    "href": "models.html#education",
+    "title": "Author",
+    "section": "Education",
+    "text": "Education\nUniversity of Oslo | Oslo, Norway\nPhD in Biostatistics | Oct 2022\nUniversity of Oslo | Oslo, Norway\nMSc in Statistics | June 2018"
+  },
+  {
+    "objectID": "models.html#experience",
+    "href": "models.html#experience",
+    "title": "Author",
+    "section": "Experience",
+    "text": "Experience\nI have developed X R packages, published Y papers."
+  },
+  {
+    "objectID": "talks.html",
+    "href": "talks.html",
+    "title": "Author",
+    "section": "",
+    "text": "Template for about page\n\n\n\nIt is possible to use different templates for the About page. Check this link to find out more."
+  },
+  {
+    "objectID": "talks.html#education",
+    "href": "talks.html#education",
+    "title": "Author",
+    "section": "Education",
+    "text": "Education\nUniversity of Oslo | Oslo, Norway\nPhD in Biostatistics | Oct 2022\nUniversity of Oslo | Oslo, Norway\nMSc in Statistics | June 2018"
+  },
+  {
+    "objectID": "talks.html#experience",
+    "href": "talks.html#experience",
+    "title": "Author",
+    "section": "Experience",
+    "text": "Experience\nI have developed X R packages, published Y papers."
+  },
+  {
+    "objectID": "projects.html",
+    "href": "projects.html",
+    "title": "Author",
+    "section": "",
+    "text": "Template for about page\n\n\n\nIt is possible to use different templates for the About page. Check this link to find out more."
+  },
+  {
+    "objectID": "projects.html#education",
+    "href": "projects.html#education",
+    "title": "Author",
+    "section": "Education",
+    "text": "Education\nUniversity of Oslo | Oslo, Norway\nPhD in Biostatistics | Oct 2022\nUniversity of Oslo | Oslo, Norway\nMSc in Statistics | June 2018"
+  },
+  {
+    "objectID": "projects.html#experience",
+    "href": "projects.html#experience",
+    "title": "Author",
+    "section": "Experience",
+    "text": "Experience\nI have developed X R packages, published Y papers."
+  }
+]

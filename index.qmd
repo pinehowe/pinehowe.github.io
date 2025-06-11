@@ -1,0 +1,36 @@
+---
+# title:
+image: icon_small.png
+
+toc: false
+about: 
+  template: trestles
+  image-shape: rectangle
+  image-width: 20rem
+  links:
+    - icon: bluesky
+      text: "{{< iconify fa6-brands bluesky size=1.1em title='Bluesky' >}} Bluesky"
+      href: https://bsky.app/profile/mchowe.bsky.social
+    - icon: github
+      text: GitHub
+      href: https://github.com/pinehowe
+    - icon: envelope
+      text: Email
+      href: mailto:mike.howe@usu.edu
+---
+
+```{=html}
+<style>
+  body {
+  background-image: url("https://github.com/pinehowe/pinehowe.github.io/blob/main/photos/spruce.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+</style>
+```
+
+<p class="white-text">
+
+Welcome fo the <strong>Forest Insect and Disturbance Lab</strong> at Utah State University. We study how...
+
+</p>

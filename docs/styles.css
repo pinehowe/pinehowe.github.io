@@ -1,0 +1,23 @@
+/* css styles */
+
+body {
+  background-image: url('"https://github.com/pinehowe/pinehowe.github.io/blob/main/photos/spruce.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+}
+
+.with-background {
+  background-image: url("https://github.com/pinehowe/pinehowe.github.io/blob/main/photos/spruce.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+}

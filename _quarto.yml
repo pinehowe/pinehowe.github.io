@@ -1,0 +1,41 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "The Forest Insect and Disturbance Lab"
+   # subtitle: "Utah State University"
+  navbar:
+    background: "#439775"
+    search: true
+    right:
+      - text: "Home"
+        href: index.qmd
+      - text: "About"
+        href: about.qmd
+      - text: "Projects"
+        href: projects.qmd
+      - text: "Publications"
+        href: publications.qmd
+      - text: "Presentations"
+        href: talks.qmd
+      - text: "Modeling w/Mike"
+        href: models.qmd
+        
+  page-footer:
+    left: "&copy; Copyright 2025, Michael Howe"
+    right: This website is built with {{< fa heart title="a heart" >}}, [{{< fa brands github title="GitHub octocat logo" >}}](https://github.com/pinehowe/pinehowe.github.io){target=_blank}, [{{< fa brands r-project title="R Project" >}}](https://www.r-project.org/about.html){target=_blank} and [Quarto](https://quarto.org/){target=_blank}
+
+
+format:
+  html:
+    theme:
+      dark: darkly
+      light: minty
+    css: styles.css
+    toc: true
+    mainfont: Reddit Mono
+    page-layout: full
+
+
+
