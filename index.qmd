@@ -6,7 +6,7 @@ toc: false
 about: 
   template: trestles
   image-shape: rectangle
-  image-width: 20rem
+  image-width: 25rem
   links:
     - icon: bluesky
       text: "{{< iconify fa6-brands bluesky size=1.1em title='Bluesky' >}} Bluesky"
@@ -31,6 +31,6 @@ about:
 
 <p class="white-text">
 
-Welcome fo the <strong>Forest Insect and Disturbance Lab</strong> at Utah State University. We study how...
+Welcome to the <strong>Forest Insect and Disturbance Lab</strong> at Utah State University. We study how...
 
 </p>
