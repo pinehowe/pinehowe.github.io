@@ -1,12 +1,12 @@
 ---
 # title:
-image: logo1.png
+image: logo.png
 
 toc: false
 about: 
   template: trestles
   image-shape: rectangle
-  image-width: 25rem
+  image-width: 20rem
   links:
     - icon: bluesky
       text: "{{< iconify fa6-brands bluesky size=1.1em title='Bluesky' >}} Bluesky"
@@ -31,6 +31,23 @@ about:
 
 <p class="white-text">
 
-Welcome to the <strong>Forest Insect and Disturbance Lab</strong> at Utah State University. We study how...
+Welcome to the <strong>Forest Insect and Disturbance Lab</strong> at Utah State University! Our research is focused on how weather, climate, and landscapes affect forest insect herbivores, disturbances, and forest ecosystems. We are especially interested in identifying the mechanisms of <strong> where, when, and how</strong> population irruptions by native forest insect herbivores start to better forecast future outbreaks. 
 
 </p>
+
+## Research Themes 
+
+A) identifying the mechanisms of insect population irruptions at local and landscape scales
+
+B) modeling the consequences of insect-caused disturbance and climate change across forested ecosystems
+
+C) expanding our toolbox for quantifying and forecasting climate change impacts across ecosystems and continents
+
+## Lab Ethos
+
+We believe that:
+
+A) science is for everyone! 
+
+B) safety and well being are 
+

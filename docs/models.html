@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Author – The Forest Insect and Disturbance Lab</title>
+<title>Modeling w/Mike – The Forest Insect and Disturbance Lab</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -20,6 +20,40 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
+/* CSS for syntax highlighting */
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { display: inline-block; text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
 </style>
 
 
@@ -30,10 +64,11 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<link href="./logo1.png" rel="icon" type="image/png">
+<link href="./logo.png" rel="icon" type="image/png">
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
@@ -133,72 +168,406 @@ gtag('config', 'G-FYLWY5C3EV', { 'anonymize_ip': true});
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#code-blocks" id="toc-code-blocks" class="nav-link active" data-scroll-target="#code-blocks">Code Blocks</a>
+  <ul class="collapse">
+  <li><a href="#howe-and-nelson-in-prep." id="toc-howe-and-nelson-in-prep." class="nav-link" data-scroll-target="#howe-and-nelson-in-prep.">Howe and Nelson <em>in prep.</em></a></li>
+  </ul></li>
+  <li><a href="#a" id="toc-a" class="nav-link" data-scroll-target="#a">1.A</a></li>
+  <li><a href="#b" id="toc-b" class="nav-link" data-scroll-target="#b">1.B</a></li>
+  <li><a href="#section" id="toc-section" class="nav-link" data-scroll-target="#section">2</a></li>
+  <li><a href="#a-1" id="toc-a-1" class="nav-link" data-scroll-target="#a-1">3.A</a></li>
+  <li><a href="#b-1" id="toc-b-1" class="nav-link" data-scroll-target="#b-1">3.B</a></li>
+  <li><a href="#section-1" id="toc-section-1" class="nav-link" data-scroll-target="#section-1">4</a></li>
+  </ul>
+</nav>
+    </div>
 <!-- main -->
-<main class="content column-page" id="quarto-document-content">
+<main class="content column-page-left" id="quarto-document-content">
 
-
-
-
-<div class="callout callout-style-default callout-note callout-titled">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-Template for about page
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<p>It is possible to use different templates for the About page. Check this <a href="https://quarto.org/docs/websites/website-about.html">link</a> to find out more.</p>
-</div>
-</div>
-<div class="quarto-about-trestles column-page">
-  <div class="about-entity">
-    <img src="profile.png" class="about-image
-  rectangle " style="width: 20em;">
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Author</h1>
+<div class="quarto-title-block"><div><h1 class="title">Modeling w/Mike</h1><button type="button" class="btn code-tools-button" id="quarto-code-tools-source"><i class="bi"></i> Code</button></div></div>
 </div>
-<div class="quarto-title-meta column-page">
+
+
+
+<div class="quarto-title-meta column-page-left">
+
+    
+  
+    
   </div>
+  
+
+
 </header>
-    <div class="about-links">
-  <a href="https://twitter.com" class="about-link" rel="" target="">
-    <i class="bi bi-twitter"></i>
-     <span class="about-link-text">Twitter</span>
-  </a>
-  <a href="https://linkedin.com" class="about-link" rel="" target="">
-    <i class="bi bi-linkedin"></i>
-     <span class="about-link-text">LinkedIn</span>
-  </a>
-  <a href="https://github.com" class="about-link" rel="" target="">
-    <i class="bi bi-github"></i>
-     <span class="about-link-text">Github</span>
-  </a>
-</div>
-  </div>
-  <div class="about-contents"><div id="hero-heading">
-<p>I am a researcher at University of Oslo.</p>
-<p>My work is about Electronic Health Records.</p>
-<section id="education" class="level2">
-<h2 data-anchor-id="education">Education</h2>
-<p>University of Oslo | Oslo, Norway</p>
-<p>PhD in Biostatistics | Oct 2022</p>
-<p>University of Oslo | Oslo, Norway</p>
-<p>MSc in Statistics | June 2018</p>
+
+
+<section id="code-blocks" class="level2">
+<h2 class="anchored" data-anchor-id="code-blocks">Code Blocks</h2>
+<section id="howe-and-nelson-in-prep." class="level3">
+<h3 class="anchored" data-anchor-id="howe-and-nelson-in-prep.">Howe and Nelson <em>in prep.</em></h3>
+<p>Please cite this manuscript if you use our generic code examples.</p>
+<p>
+</p><p><strong>Code Block 1:</strong> Generic example of model construction using <strong>A)</strong> <em>S3</em> objects (mlr) and <strong>B)</strong> <em>R6</em> objects (mlr3). In both approaches we are randomly drawing a training (train.set) and test (test.set) dataset from our full dataset (full.dataset). The model stacking ensemble that we use in <strong>B</strong> requires <em>mlr3pipelines</em>.</p>
+<p></p>
 </section>
-<section id="experience" class="level2">
-<h2 data-anchor-id="experience">Experience</h2>
-<p>I have developed X R packages, published Y papers.</p>
 </section>
-</div></div>
+<section id="a" class="level2">
+<h2 class="anchored" data-anchor-id="a">1.A</h2>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1"></a><span class="do">#### S3: mlr  ####</span></span>
+<span id="cb1-2"><a href="#cb1-2"></a></span>
+<span id="cb1-3"><a href="#cb1-3"></a>learner.randomforest <span class="ot">=</span> <span class="fu">setHyperPars</span>(</span>
+<span id="cb1-4"><a href="#cb1-4"></a>              <span class="fu">makeLearner</span>(<span class="st">"classif.ranger"</span>, </span>
+<span id="cb1-5"><a href="#cb1-5"></a>              <span class="at">num.threads=</span><span class="dv">12</span>, </span>
+<span id="cb1-6"><a href="#cb1-6"></a>              <span class="at">predict.type =</span> <span class="st">"prob"</span>, </span>
+<span id="cb1-7"><a href="#cb1-7"></a>              <span class="at">importance=</span><span class="st">"impurity"</span>, </span>
+<span id="cb1-8"><a href="#cb1-8"></a>              <span class="at">predict.threshold =</span> <span class="fl">0.5</span>), </span>
+<span id="cb1-9"><a href="#cb1-9"></a>              <span class="at">par.vals =</span> <span class="fu">list</span>(<span class="at">num.trees=</span><span class="dv">250</span>, <span class="at">verbose=</span><span class="cn">TRUE</span>))</span>
+<span id="cb1-10"><a href="#cb1-10"></a></span>
+<span id="cb1-11"><a href="#cb1-11"></a>learner.XGBoost <span class="ot">=</span> <span class="fu">setHyperPars</span>(</span>
+<span id="cb1-12"><a href="#cb1-12"></a>              <span class="fu">makeLearner</span>(<span class="st">"classif.xgboost"</span>, </span>
+<span id="cb1-13"><a href="#cb1-13"></a>              <span class="at">nthread=</span><span class="dv">12</span>, </span>
+<span id="cb1-14"><a href="#cb1-14"></a>              <span class="at">predict.type =</span> <span class="st">"prob"</span>, </span>
+<span id="cb1-15"><a href="#cb1-15"></a>              <span class="at">predict.threshold =</span> <span class="fl">0.5</span>), </span>
+<span id="cb1-16"><a href="#cb1-16"></a>              <span class="at">par.vals =</span> <span class="fu">list</span>(<span class="at">nrounds =</span> <span class="dv">250</span>,</span>
+<span id="cb1-17"><a href="#cb1-17"></a>              <span class="at">max_depth =</span> <span class="dv">8</span>,</span>
+<span id="cb1-18"><a href="#cb1-18"></a>              <span class="at">alpha=</span><span class="fl">0.022</span>,</span>
+<span id="cb1-19"><a href="#cb1-19"></a>              <span class="at">eta =</span> <span class="fl">0.36</span>, </span>
+<span id="cb1-20"><a href="#cb1-20"></a>              <span class="at">lambda =</span> <span class="fl">0.1</span>))</span>
+<span id="cb1-21"><a href="#cb1-21"></a></span>
+<span id="cb1-22"><a href="#cb1-22"></a>ensemble <span class="ot">=</span> <span class="fu">makeStackedLearner</span>(<span class="at">base.learners =</span> <span class="fu">list</span>(</span>
+<span id="cb1-23"><a href="#cb1-23"></a>    learner.randomforest, </span>
+<span id="cb1-24"><a href="#cb1-24"></a>    learner.XGBoost),</span>
+<span id="cb1-25"><a href="#cb1-25"></a>    <span class="at">method=</span><span class="st">"average"</span>,</span>
+<span id="cb1-26"><a href="#cb1-26"></a>    <span class="at">predict.type =</span> <span class="st">"prob"</span>)</span>
+<span id="cb1-27"><a href="#cb1-27"></a></span>
+<span id="cb1-28"><a href="#cb1-28"></a>train.set <span class="ot">&lt;-</span> full.dataset <span class="sc">%&gt;%</span></span>
+<span id="cb1-29"><a href="#cb1-29"></a>    <span class="fu">group_by</span>(mpb) <span class="sc">%&gt;%</span></span>
+<span id="cb1-30"><a href="#cb1-30"></a>    <span class="fu">slice_sample</span>(<span class="at">n=</span><span class="dv">50000</span>) <span class="sc">%&gt;%</span></span>
+<span id="cb1-31"><a href="#cb1-31"></a>    <span class="fu">mutate</span>(<span class="at">mpb=</span><span class="fu">as.factor</span>(mpb)) <span class="sc">%&gt;%</span></span>
+<span id="cb1-32"><a href="#cb1-32"></a>    <span class="fu">as.data.frame</span>()</span>
+<span id="cb1-33"><a href="#cb1-33"></a>  </span>
+<span id="cb1-34"><a href="#cb1-34"></a>test.set <span class="ot">&lt;-</span> full.dataset <span class="sc">%&gt;%</span></span>
+<span id="cb1-35"><a href="#cb1-35"></a>    <span class="fu">group_by</span>(mpb) <span class="sc">%&gt;%</span></span>
+<span id="cb1-36"><a href="#cb1-36"></a>    <span class="fu">slice_sample</span>(<span class="at">n=</span><span class="dv">50000</span>) <span class="sc">%&gt;%</span></span>
+<span id="cb1-37"><a href="#cb1-37"></a>    <span class="fu">mutate</span>(<span class="at">mpb=</span><span class="fu">as.factor</span>(mpb)) <span class="sc">%&gt;%</span></span>
+<span id="cb1-38"><a href="#cb1-38"></a>    <span class="fu">as.data.frame</span>()</span>
+<span id="cb1-39"><a href="#cb1-39"></a>  </span>
+<span id="cb1-40"><a href="#cb1-40"></a>model.train <span class="ot">&lt;-</span> train.set <span class="sc">%&gt;%</span></span>
+<span id="cb1-41"><a href="#cb1-41"></a>    <span class="fu">makeClassifTask</span>(<span class="at">data=</span>., <span class="at">target=</span><span class="st">"mpb"</span>, <span class="at">positive=</span><span class="st">"1"</span>) <span class="sc">%&gt;%</span></span>
+<span id="cb1-42"><a href="#cb1-42"></a>    <span class="fu">train</span>(ensemble, .)</span>
+<span id="cb1-43"><a href="#cb1-43"></a></span>
+<span id="cb1-44"><a href="#cb1-44"></a>model.predict <span class="ot">&lt;-</span> test.set <span class="sc">%&gt;%</span></span>
+<span id="cb1-45"><a href="#cb1-45"></a>    <span class="fu">makeClassifTask</span>(<span class="at">data=</span>., <span class="at">target=</span><span class="st">"mpb"</span>, <span class="at">positive=</span><span class="st">"1"</span>) <span class="sc">%&gt;%</span></span>
+<span id="cb1-46"><a href="#cb1-46"></a>    <span class="fu">predict</span>(model.train, .)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+</section>
+<section id="b" class="level2">
+<h2 class="anchored" data-anchor-id="b">1.B</h2>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb2"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb2-1"><a href="#cb2-1"></a><span class="do">#### R6: mlr3 ####</span></span>
+<span id="cb2-2"><a href="#cb2-2"></a></span>
+<span id="cb2-3"><a href="#cb2-3"></a>learner.randomforest <span class="ot">&lt;-</span> <span class="fu">lrn</span>(</span>
+<span id="cb2-4"><a href="#cb2-4"></a>  <span class="st">"classif.ranger"</span>, </span>
+<span id="cb2-5"><a href="#cb2-5"></a>  <span class="at">num.threads=</span><span class="dv">12</span>, </span>
+<span id="cb2-6"><a href="#cb2-6"></a>  <span class="at">num.trees =</span> <span class="dv">250</span>, </span>
+<span id="cb2-7"><a href="#cb2-7"></a>  <span class="at">importance=</span><span class="st">"impurity"</span>,</span>
+<span id="cb2-8"><a href="#cb2-8"></a>  <span class="at">predict_type=</span><span class="st">"prob"</span>)</span>
+<span id="cb2-9"><a href="#cb2-9"></a></span>
+<span id="cb2-10"><a href="#cb2-10"></a>learner.XGBoost <span class="ot">&lt;-</span> <span class="fu">lrn</span>(</span>
+<span id="cb2-11"><a href="#cb2-11"></a>  <span class="st">"classif.xgboost"</span>,</span>
+<span id="cb2-12"><a href="#cb2-12"></a>  <span class="at">nthread=</span><span class="dv">12</span>,</span>
+<span id="cb2-13"><a href="#cb2-13"></a>  <span class="at">alpha=</span><span class="fl">0.022</span>,</span>
+<span id="cb2-14"><a href="#cb2-14"></a>  <span class="at">eta =</span> <span class="fl">0.36</span>, </span>
+<span id="cb2-15"><a href="#cb2-15"></a>  <span class="at">lambda =</span> <span class="fl">0.1</span>,</span>
+<span id="cb2-16"><a href="#cb2-16"></a>  <span class="at">max_depth=</span><span class="dv">8</span>,</span>
+<span id="cb2-17"><a href="#cb2-17"></a>  <span class="at">nrounds=</span><span class="dv">250</span>,</span>
+<span id="cb2-18"><a href="#cb2-18"></a>  <span class="at">predict_type=</span><span class="st">"prob"</span>)</span>
+<span id="cb2-19"><a href="#cb2-19"></a></span>
+<span id="cb2-20"><a href="#cb2-20"></a>train.set <span class="ot">&lt;-</span> full.dataset <span class="sc">%&gt;%</span></span>
+<span id="cb2-21"><a href="#cb2-21"></a>    <span class="fu">group_by</span>(mpb) <span class="sc">%&gt;%</span></span>
+<span id="cb2-22"><a href="#cb2-22"></a>    <span class="fu">slice_sample</span>(<span class="at">n=</span><span class="dv">50000</span>) <span class="sc">%&gt;%</span></span>
+<span id="cb2-23"><a href="#cb2-23"></a>    <span class="fu">as.data.frame</span>()</span>
+<span id="cb2-24"><a href="#cb2-24"></a>  </span>
+<span id="cb2-25"><a href="#cb2-25"></a>test.set <span class="ot">&lt;-</span> full.dataset <span class="sc">%&gt;%</span></span>
+<span id="cb2-26"><a href="#cb2-26"></a>    <span class="fu">group_by</span>(mpb) <span class="sc">%&gt;%</span></span>
+<span id="cb2-27"><a href="#cb2-27"></a>    <span class="fu">slice_sample</span>(<span class="at">n=</span><span class="dv">50000</span>) <span class="sc">%&gt;%</span></span>
+<span id="cb2-28"><a href="#cb2-28"></a>    <span class="fu">as.data.frame</span>()</span>
+<span id="cb2-29"><a href="#cb2-29"></a></span>
+<span id="cb2-30"><a href="#cb2-30"></a>training.task <span class="ot">&lt;-</span> <span class="fu">as_task_classif</span>(<span class="at">x=</span>train.set, <span class="at">target=</span><span class="st">"mpb"</span>)  </span>
+<span id="cb2-31"><a href="#cb2-31"></a>testing.task <span class="ot">&lt;-</span>  <span class="fu">as_task_classif</span>(<span class="at">x=</span>test.set, <span class="at">target=</span><span class="st">"mpb"</span>)  </span>
+<span id="cb2-32"><a href="#cb2-32"></a></span>
+<span id="cb2-33"><a href="#cb2-33"></a>ensemble.pipeline <span class="ot">&lt;-</span> </span>
+<span id="cb2-34"><a href="#cb2-34"></a>  <span class="fu">gunion</span>(<span class="fu">list</span>(</span>
+<span id="cb2-35"><a href="#cb2-35"></a>    PipeOpLearnerCV<span class="sc">$</span><span class="fu">new</span>(learner.randomforest, <span class="at">id =</span> <span class="st">"xgb"</span>),</span>
+<span id="cb2-36"><a href="#cb2-36"></a>    PipeOpLearnerCV<span class="sc">$</span><span class="fu">new</span>(learner.XGBoost, <span class="at">id =</span> <span class="st">"rf"</span>)</span>
+<span id="cb2-37"><a href="#cb2-37"></a>  ))</span>
+<span id="cb2-38"><a href="#cb2-38"></a></span>
+<span id="cb2-39"><a href="#cb2-39"></a>ensemble.average <span class="ot">&lt;-</span> LearnerClassifAvg<span class="sc">$</span><span class="fu">new</span>(<span class="at">id =</span> <span class="st">"classif"</span>)</span>
+<span id="cb2-40"><a href="#cb2-40"></a></span>
+<span id="cb2-41"><a href="#cb2-41"></a>ensemble.model <span class="ot">&lt;-</span> ensemble.pipeline <span class="sc">%&gt;&gt;%</span></span>
+<span id="cb2-42"><a href="#cb2-42"></a>  PipeOpFeatureUnion<span class="sc">$</span><span class="fu">new</span>(<span class="dv">2</span>, <span class="at">id =</span> <span class="st">"avg"</span>) <span class="sc">%&gt;&gt;%</span></span>
+<span id="cb2-43"><a href="#cb2-43"></a>  ensemble.average</span>
+<span id="cb2-44"><a href="#cb2-44"></a></span>
+<span id="cb2-45"><a href="#cb2-45"></a>ensemble <span class="ot">&lt;-</span> GraphLearner<span class="sc">$</span><span class="fu">new</span>(ensemble.model, <span class="at">predict_type=</span><span class="st">"prob"</span>)</span>
+<span id="cb2-46"><a href="#cb2-46"></a>model.train <span class="ot">&lt;-</span> ensemble<span class="sc">$</span><span class="fu">train</span>(training.task)</span>
+<span id="cb2-47"><a href="#cb2-47"></a>model.test <span class="ot">&lt;-</span> ensemble<span class="sc">$</span><span class="fu">predict</span>(test.task)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<p>Code Block 2: Generic example of hyperparameter tuning using the default tuning space for XGBoost. We constrained the number of rounds to 250-500 and the max depth to 5-10 based on processing limitations.</p>
+</section>
+<section id="section" class="level2">
+<h2 class="anchored" data-anchor-id="section">2</h2>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb3"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb3-1"><a href="#cb3-1"></a><span class="do">#### tuning space ####</span></span>
+<span id="cb3-2"><a href="#cb3-2"></a></span>
+<span id="cb3-3"><a href="#cb3-3"></a>xgboost.lts <span class="ot">&lt;-</span> <span class="fu">lts</span>(<span class="st">"classif.xgboost.default"</span>,</span>
+<span id="cb3-4"><a href="#cb3-4"></a>              <span class="at">nrounds=</span><span class="fu">to_tune</span>(<span class="dv">250</span>, <span class="dv">500</span>),</span>
+<span id="cb3-5"><a href="#cb3-5"></a>              <span class="at">max_depth=</span><span class="fu">to_tune</span>(<span class="dv">5</span>,<span class="dv">10</span>),</span>
+<span id="cb3-6"><a href="#cb3-6"></a>              <span class="at">subsample=</span><span class="cn">NULL</span>,</span>
+<span id="cb3-7"><a href="#cb3-7"></a>              <span class="at">colsample_bylevel=</span><span class="cn">NULL</span>,</span>
+<span id="cb3-8"><a href="#cb3-8"></a>              <span class="at">colsample_bytree=</span><span class="cn">NULL</span>)</span>
+<span id="cb3-9"><a href="#cb3-9"></a></span>
+<span id="cb3-10"><a href="#cb3-10"></a><span class="do">#### tuner ####</span></span>
+<span id="cb3-11"><a href="#cb3-11"></a></span>
+<span id="cb3-12"><a href="#cb3-12"></a>xgboost.ti <span class="ot">&lt;-</span> <span class="fu">ti</span>(</span>
+<span id="cb3-13"><a href="#cb3-13"></a>  <span class="at">task=</span>training.task,</span>
+<span id="cb3-14"><a href="#cb3-14"></a>  <span class="at">learner=</span><span class="fu">lrn</span>(<span class="st">"classif.xgboost"</span>, <span class="at">nthread=</span><span class="dv">12</span>),</span>
+<span id="cb3-15"><a href="#cb3-15"></a>  <span class="at">resampling=</span><span class="fu">rsmp</span>(<span class="st">"cv"</span>, <span class="at">folds=</span><span class="dv">3</span>),</span>
+<span id="cb3-16"><a href="#cb3-16"></a>  <span class="at">measures =</span> <span class="fu">msr</span>(<span class="st">"classif.ce"</span>),</span>
+<span id="cb3-17"><a href="#cb3-17"></a>  <span class="at">terminator=</span><span class="fu">trm</span>(<span class="st">"evals"</span>, <span class="at">n_evals=</span><span class="dv">10</span>),</span>
+<span id="cb3-18"><a href="#cb3-18"></a>  <span class="at">search_space =</span> c.xgb.lts</span>
+<span id="cb3-19"><a href="#cb3-19"></a>)</span>
+<span id="cb3-20"><a href="#cb3-20"></a></span>
+<span id="cb3-21"><a href="#cb3-21"></a><span class="do">#### grid search  ####</span></span>
+<span id="cb3-22"><a href="#cb3-22"></a></span>
+<span id="cb3-23"><a href="#cb3-23"></a>xgboost.tnr <span class="ot">&lt;-</span> <span class="fu">tnr</span>(<span class="st">"grid_search"</span>, <span class="at">batch_size=</span><span class="dv">50</span>)</span>
+<span id="cb3-24"><a href="#cb3-24"></a></span>
+<span id="cb3-25"><a href="#cb3-25"></a><span class="do">#### optimize ####</span></span>
+<span id="cb3-26"><a href="#cb3-26"></a></span>
+<span id="cb3-27"><a href="#cb3-27"></a>xgboost.tnr<span class="sc">$</span><span class="fu">optimize</span>(xgboost.ti)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<p>Code Block 3: Generic example of forward selection using <strong>A)</strong> mlr3fselect; and <strong>B)</strong> our forward selection algorithm. Our variable selection function ‘var.selex’ calls the function ‘ensemble.model’ which simply takes a list of training and testing datasets (one for each predictor), fits a model based on the training dataset and calculates perforamnce based on the testing dataset.</p>
+</section>
+<section id="a-1" class="level2">
+<h2 class="anchored" data-anchor-id="a-1">3.A</h2>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb4"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb4-1"><a href="#cb4-1"></a>model.fselect <span class="ot">=</span> <span class="fu">fselect</span>(</span>
+<span id="cb4-2"><a href="#cb4-2"></a>  <span class="at">fselector =</span> <span class="fu">fs</span>(<span class="st">"sequential"</span>, <span class="at">max_features=</span><span class="dv">10</span>),</span>
+<span id="cb4-3"><a href="#cb4-3"></a>  <span class="at">task =</span> training.task,</span>
+<span id="cb4-4"><a href="#cb4-4"></a>  <span class="at">learner =</span> ensemble,</span>
+<span id="cb4-5"><a href="#cb4-5"></a>  <span class="at">resampling =</span> <span class="fu">rsmp</span>(<span class="st">"holdout"</span>),</span>
+<span id="cb4-6"><a href="#cb4-6"></a>  <span class="at">measure =</span> <span class="fu">msr</span>(<span class="st">"classif.ce"</span>))</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+</section>
+<section id="b-1" class="level2">
+<h2 class="anchored" data-anchor-id="b-1">3.B</h2>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb5"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb5-1"><a href="#cb5-1"></a>ensemble.model <span class="ot">&lt;-</span> <span class="cf">function</span>(df.train, df.test){</span>
+<span id="cb5-2"><a href="#cb5-2"></a>  </span>
+<span id="cb5-3"><a href="#cb5-3"></a>  df.prdctr <span class="ot">&lt;-</span> df.train <span class="sc">%&gt;%</span> <span class="fu">select</span>(predictor) <span class="sc">%&gt;%</span> <span class="fu">distinct</span>() <span class="sc">%&gt;%</span> <span class="fu">pull</span>()</span>
+<span id="cb5-4"><a href="#cb5-4"></a>  df.trn <span class="ot">&lt;-</span> df.train <span class="sc">%&gt;%</span> <span class="fu">select</span>(<span class="sc">-</span>predictor)</span>
+<span id="cb5-5"><a href="#cb5-5"></a>  df.tst <span class="ot">&lt;-</span> df.test <span class="sc">%&gt;%</span> <span class="fu">select</span>(<span class="sc">-</span>predictor)</span>
+<span id="cb5-6"><a href="#cb5-6"></a>  </span>
+<span id="cb5-7"><a href="#cb5-7"></a>  sample.tsk <span class="ot">&lt;-</span> <span class="fu">as_task_classif</span>(<span class="at">x=</span>df.trn, <span class="at">target=</span><span class="st">"mpb"</span>)</span>
+<span id="cb5-8"><a href="#cb5-8"></a>  sample.tst <span class="ot">&lt;-</span> <span class="fu">as_task_classif</span>(<span class="at">x=</span>df.tst, <span class="at">target=</span><span class="st">"mpb"</span>)</span>
+<span id="cb5-9"><a href="#cb5-9"></a></span>
+<span id="cb5-10"><a href="#cb5-10"></a>  m.e.cv <span class="ot">=</span> GraphLearner<span class="sc">$</span><span class="fu">new</span>(m<span class="fl">.1</span>, <span class="at">predict_type=</span><span class="st">"prob"</span>)  </span>
+<span id="cb5-11"><a href="#cb5-11"></a>  m.train <span class="ot">&lt;-</span> m.e.cv<span class="sc">$</span><span class="fu">train</span>(sample.tsk)</span>
+<span id="cb5-12"><a href="#cb5-12"></a>  m.prd <span class="ot">&lt;-</span> m.e.cv<span class="sc">$</span><span class="fu">predict</span>(sample.tst)</span>
+<span id="cb5-13"><a href="#cb5-13"></a>  </span>
+<span id="cb5-14"><a href="#cb5-14"></a>  m.prf <span class="ot">&lt;-</span> <span class="fu">data.frame</span>(</span>
+<span id="cb5-15"><a href="#cb5-15"></a>    <span class="at">acc =</span> m.prd<span class="sc">$</span><span class="fu">score</span>(<span class="fu">msr</span>(<span class="st">"classif.acc"</span>)),</span>
+<span id="cb5-16"><a href="#cb5-16"></a>    <span class="at">auc =</span> m.prd<span class="sc">$</span><span class="fu">score</span>(<span class="fu">msr</span>(<span class="st">"classif.auc"</span>)),</span>
+<span id="cb5-17"><a href="#cb5-17"></a>    <span class="at">ce =</span> m.prd<span class="sc">$</span><span class="fu">score</span>(<span class="fu">msr</span>(<span class="st">"classif.ce"</span>)),</span>
+<span id="cb5-18"><a href="#cb5-18"></a>    <span class="at">fdr =</span> m.prd<span class="sc">$</span><span class="fu">score</span>(<span class="fu">msr</span>(<span class="st">"classif.fdr"</span>)),</span>
+<span id="cb5-19"><a href="#cb5-19"></a>    <span class="at">fnr =</span> m.prd<span class="sc">$</span><span class="fu">score</span>(<span class="fu">msr</span>(<span class="st">"classif.fnr"</span>)),</span>
+<span id="cb5-20"><a href="#cb5-20"></a>    <span class="at">fomr =</span> m.prd<span class="sc">$</span><span class="fu">score</span>(<span class="fu">msr</span>(<span class="st">"classif.fomr"</span>)),</span>
+<span id="cb5-21"><a href="#cb5-21"></a>    <span class="at">fpr =</span> m.prd<span class="sc">$</span><span class="fu">score</span>(<span class="fu">msr</span>(<span class="st">"classif.fpr"</span>)),</span>
+<span id="cb5-22"><a href="#cb5-22"></a>    <span class="at">tnr =</span> m.prd<span class="sc">$</span><span class="fu">score</span>(<span class="fu">msr</span>(<span class="st">"classif.tnr"</span>)),</span>
+<span id="cb5-23"><a href="#cb5-23"></a>    <span class="at">tpr =</span> m.prd<span class="sc">$</span><span class="fu">score</span>(<span class="fu">msr</span>(<span class="st">"classif.tpr"</span>))) <span class="sc">%&gt;%</span></span>
+<span id="cb5-24"><a href="#cb5-24"></a>    <span class="fu">as_tibble</span>() <span class="sc">%&gt;%</span> <span class="fu">bind_cols</span>(<span class="fu">t</span>(m.train<span class="sc">$</span>timings) <span class="sc">%&gt;%</span> <span class="fu">as_tibble</span>()) <span class="sc">%&gt;%</span> </span>
+<span id="cb5-25"><a href="#cb5-25"></a>    <span class="fu">mutate</span>(<span class="at">predictor=</span>df.prdctr)</span>
+<span id="cb5-26"><a href="#cb5-26"></a></span>
+<span id="cb5-27"><a href="#cb5-27"></a>  <span class="fu">return</span>(m.prf)</span>
+<span id="cb5-28"><a href="#cb5-28"></a>  </span>
+<span id="cb5-29"><a href="#cb5-29"></a>}</span>
+<span id="cb5-30"><a href="#cb5-30"></a></span>
+<span id="cb5-31"><a href="#cb5-31"></a><span class="st">`</span><span class="at">%ni%</span><span class="st">`</span> <span class="ot">&lt;-</span> <span class="fu">Negate</span>(<span class="st">`</span><span class="at">%in%</span><span class="st">`</span>)</span>
+<span id="cb5-32"><a href="#cb5-32"></a></span>
+<span id="cb5-33"><a href="#cb5-33"></a>var.selex <span class="ot">&lt;-</span> <span class="cf">function</span>(train.df, test.df, <span class="at">max.feat=</span><span class="dv">14</span>, <span class="at">cutoff=</span><span class="fl">0.8</span>, <span class="at">iter=</span>j){</span>
+<span id="cb5-34"><a href="#cb5-34"></a>  </span>
+<span id="cb5-35"><a href="#cb5-35"></a>  <span class="do">#### correlation matrix ####</span></span>
+<span id="cb5-36"><a href="#cb5-36"></a>  <span class="co"># </span><span class="al">NOTE</span><span class="co">: this is messy and I'll rewrite it at some point</span></span>
+<span id="cb5-37"><a href="#cb5-37"></a>  </span>
+<span id="cb5-38"><a href="#cb5-38"></a>  corr.mat <span class="ot">&lt;-</span> <span class="fu">bind_rows</span>(</span>
+<span id="cb5-39"><a href="#cb5-39"></a>    train.df <span class="sc">%&gt;%</span> </span>
+<span id="cb5-40"><a href="#cb5-40"></a>    <span class="fu">bind_rows</span>(test.df) <span class="sc">%&gt;%</span></span>
+<span id="cb5-41"><a href="#cb5-41"></a>    <span class="fu">select</span>(<span class="sc">-</span>mpb) <span class="sc">%&gt;%</span> </span>
+<span id="cb5-42"><a href="#cb5-42"></a>    <span class="fu">as.matrix</span>() <span class="sc">%&gt;%</span> </span>
+<span id="cb5-43"><a href="#cb5-43"></a>    <span class="fu">cor</span>(., <span class="at">method=</span><span class="st">"pearson"</span>) <span class="sc">%&gt;%</span></span>
+<span id="cb5-44"><a href="#cb5-44"></a>    <span class="fu">as.data.frame</span>() <span class="sc">%&gt;%</span></span>
+<span id="cb5-45"><a href="#cb5-45"></a>    <span class="fu">rownames_to_column</span>() <span class="sc">%&gt;%</span></span>
+<span id="cb5-46"><a href="#cb5-46"></a>    <span class="fu">pivot_longer</span>(<span class="sc">-</span>rowname) <span class="sc">%&gt;%</span></span>
+<span id="cb5-47"><a href="#cb5-47"></a>    <span class="fu">mutate</span>(<span class="at">method=</span><span class="st">"pearson"</span>),</span>
+<span id="cb5-48"><a href="#cb5-48"></a>    train.df <span class="sc">%&gt;%</span> </span>
+<span id="cb5-49"><a href="#cb5-49"></a>    <span class="fu">bind_rows</span>(test.df) <span class="sc">%&gt;%</span></span>
+<span id="cb5-50"><a href="#cb5-50"></a>    <span class="fu">select</span>(<span class="sc">-</span>mpb) <span class="sc">%&gt;%</span> </span>
+<span id="cb5-51"><a href="#cb5-51"></a>    <span class="fu">as.matrix</span>() <span class="sc">%&gt;%</span> </span>
+<span id="cb5-52"><a href="#cb5-52"></a>    <span class="fu">cor</span>(., <span class="at">method=</span><span class="st">"spearman"</span>) <span class="sc">%&gt;%</span></span>
+<span id="cb5-53"><a href="#cb5-53"></a>    <span class="fu">as.data.frame</span>() <span class="sc">%&gt;%</span></span>
+<span id="cb5-54"><a href="#cb5-54"></a>    <span class="fu">rownames_to_column</span>() <span class="sc">%&gt;%</span></span>
+<span id="cb5-55"><a href="#cb5-55"></a>    <span class="fu">pivot_longer</span>(<span class="sc">-</span>rowname) <span class="sc">%&gt;%</span></span>
+<span id="cb5-56"><a href="#cb5-56"></a>    <span class="fu">mutate</span>(<span class="at">method=</span><span class="st">"spearman"</span>)) <span class="sc">%&gt;%</span></span>
+<span id="cb5-57"><a href="#cb5-57"></a>    <span class="fu">mutate</span>(<span class="at">abs.value=</span><span class="fu">abs</span>(value)) <span class="sc">%&gt;%</span></span>
+<span id="cb5-58"><a href="#cb5-58"></a>    <span class="fu">select</span>(<span class="at">var.1=</span>rowname,</span>
+<span id="cb5-59"><a href="#cb5-59"></a>           <span class="at">var.2=</span>name,</span>
+<span id="cb5-60"><a href="#cb5-60"></a>           method, abs.value) <span class="sc">%&gt;%</span></span>
+<span id="cb5-61"><a href="#cb5-61"></a>    <span class="fu">pivot_wider</span>(<span class="at">values_from=</span>abs.value, <span class="at">names_from=</span>method)</span>
+<span id="cb5-62"><a href="#cb5-62"></a>  </span>
+<span id="cb5-63"><a href="#cb5-63"></a>  <span class="do">#### result.grid  ####</span></span>
+<span id="cb5-64"><a href="#cb5-64"></a>  </span>
+<span id="cb5-65"><a href="#cb5-65"></a>  result.grid <span class="ot">&lt;-</span> <span class="fu">list</span>()</span>
+<span id="cb5-66"><a href="#cb5-66"></a></span>
+<span id="cb5-67"><a href="#cb5-67"></a>  <span class="cf">for</span>(i <span class="cf">in</span> <span class="dv">1</span><span class="sc">:</span>max.feat){</span>
+<span id="cb5-68"><a href="#cb5-68"></a>    </span>
+<span id="cb5-69"><a href="#cb5-69"></a>  <span class="fu">print</span>(<span class="fu">paste0</span>(<span class="st">"#### model "</span>, i, <span class="st">" ####"</span>))  </span>
+<span id="cb5-70"><a href="#cb5-70"></a>    </span>
+<span id="cb5-71"><a href="#cb5-71"></a>  <span class="cf">if</span>(i <span class="sc">==</span> <span class="dv">1</span>){  </span>
+<span id="cb5-72"><a href="#cb5-72"></a></span>
+<span id="cb5-73"><a href="#cb5-73"></a>  train.split <span class="ot">&lt;-</span> train.df <span class="sc">%&gt;%</span></span>
+<span id="cb5-74"><a href="#cb5-74"></a>  <span class="fu">pivot_longer</span>(<span class="sc">-</span>mpb, <span class="at">names_to=</span><span class="st">"predictor"</span>, <span class="at">values_to=</span><span class="st">"obs"</span>) <span class="sc">%&gt;%</span></span>
+<span id="cb5-75"><a href="#cb5-75"></a>  <span class="fu">split</span>(.<span class="sc">$</span>predictor, <span class="at">drop=</span><span class="cn">TRUE</span>) </span>
+<span id="cb5-76"><a href="#cb5-76"></a>  </span>
+<span id="cb5-77"><a href="#cb5-77"></a>  test.split <span class="ot">&lt;-</span> test.df <span class="sc">%&gt;%</span></span>
+<span id="cb5-78"><a href="#cb5-78"></a>  <span class="fu">pivot_longer</span>(<span class="sc">-</span>mpb, <span class="at">names_to=</span><span class="st">"predictor"</span>, <span class="at">values_to=</span><span class="st">"obs"</span>) <span class="sc">%&gt;%</span></span>
+<span id="cb5-79"><a href="#cb5-79"></a>  <span class="fu">split</span>(.<span class="sc">$</span>predictor)    </span>
+<span id="cb5-80"><a href="#cb5-80"></a>  </span>
+<span id="cb5-81"><a href="#cb5-81"></a>  model <span class="ot">&lt;-</span> <span class="fu">map2</span>(<span class="at">.x=</span>train.split, <span class="at">.y=</span>test.split, <span class="at">.f=</span>ensemble.model) <span class="sc">%&gt;%</span> <span class="fu">bind_rows</span>()  </span>
+<span id="cb5-82"><a href="#cb5-82"></a>  </span>
+<span id="cb5-83"><a href="#cb5-83"></a>result.grid[[i]] <span class="ot">&lt;-</span> p.s <span class="ot">&lt;-</span> model <span class="sc">%&gt;%</span> <span class="fu">mutate</span>(<span class="at">n.feat=</span>i)</span>
+<span id="cb5-84"><a href="#cb5-84"></a>   </span>
+<span id="cb5-85"><a href="#cb5-85"></a>  }<span class="cf">else</span>{</span>
+<span id="cb5-86"><a href="#cb5-86"></a>    </span>
+<span id="cb5-87"><a href="#cb5-87"></a>  p.s <span class="ot">&lt;-</span> result.grid <span class="sc">%&gt;%</span> <span class="fu">bind_rows</span>() <span class="sc">%&gt;%</span> <span class="fu">group_by</span>(n.feat) <span class="sc">%&gt;%</span></span>
+<span id="cb5-88"><a href="#cb5-88"></a>    <span class="fu">slice_min</span>(<span class="at">order_by=</span>ce) <span class="sc">%&gt;%</span> <span class="fu">ungroup</span>()</span>
+<span id="cb5-89"><a href="#cb5-89"></a>  </span>
+<span id="cb5-90"><a href="#cb5-90"></a>  crm <span class="ot">&lt;-</span> corr.mat <span class="sc">%&gt;%</span></span>
+<span id="cb5-91"><a href="#cb5-91"></a>    <span class="fu">filter</span>(var<span class="fl">.1</span> <span class="sc">%in%</span> p.s<span class="sc">$</span>predictor) <span class="sc">%&gt;%</span></span>
+<span id="cb5-92"><a href="#cb5-92"></a>    <span class="fu">filter</span>(pearson <span class="sc">&gt;=</span> cutoff <span class="sc">|</span> spearman <span class="sc">&gt;=</span> cutoff)</span>
+<span id="cb5-93"><a href="#cb5-93"></a>  </span>
+<span id="cb5-94"><a href="#cb5-94"></a>  can.var <span class="ot">&lt;-</span> corr.mat <span class="sc">%&gt;%</span> <span class="fu">filter</span>(var<span class="fl">.2</span> <span class="sc">%ni%</span> crm<span class="sc">$</span>var<span class="fl">.2</span>) <span class="sc">%&gt;%</span></span>
+<span id="cb5-95"><a href="#cb5-95"></a>    <span class="fu">select</span>(var<span class="fl">.2</span>) <span class="sc">%&gt;%</span> <span class="fu">distinct</span>()</span>
+<span id="cb5-96"><a href="#cb5-96"></a>    </span>
+<span id="cb5-97"><a href="#cb5-97"></a>  <span class="cf">if</span>(<span class="fu">nrow</span>(can.var) <span class="sc">&gt;</span> <span class="dv">0</span>){</span>
+<span id="cb5-98"><a href="#cb5-98"></a>  </span>
+<span id="cb5-99"><a href="#cb5-99"></a>  train.split <span class="ot">&lt;-</span> train.df <span class="sc">%&gt;%</span></span>
+<span id="cb5-100"><a href="#cb5-100"></a>    <span class="fu">select</span>(mpb, <span class="fu">contains</span>(p.s<span class="sc">$</span>predictor), <span class="fu">contains</span>(can.var<span class="sc">$</span>var<span class="fl">.2</span>)) <span class="sc">%&gt;%</span></span>
+<span id="cb5-101"><a href="#cb5-101"></a>    <span class="fu">pivot_longer</span>(<span class="sc">!</span><span class="fu">c</span>(mpb, <span class="fu">contains</span>(p.s<span class="sc">$</span>predictor)), <span class="at">names_to=</span><span class="st">"predictor"</span>, <span class="at">values_to=</span><span class="st">"obs"</span>) <span class="sc">%&gt;%</span></span>
+<span id="cb5-102"><a href="#cb5-102"></a>    <span class="fu">split</span>(.<span class="sc">$</span>predictor, <span class="at">drop=</span><span class="cn">TRUE</span>) </span>
+<span id="cb5-103"><a href="#cb5-103"></a>  </span>
+<span id="cb5-104"><a href="#cb5-104"></a>  test.split <span class="ot">&lt;-</span> test.df <span class="sc">%&gt;%</span></span>
+<span id="cb5-105"><a href="#cb5-105"></a>    <span class="fu">select</span>(mpb, <span class="fu">contains</span>(p.s<span class="sc">$</span>predictor), <span class="fu">contains</span>(can.var<span class="sc">$</span>var<span class="fl">.2</span>)) <span class="sc">%&gt;%</span></span>
+<span id="cb5-106"><a href="#cb5-106"></a>    <span class="fu">pivot_longer</span>(<span class="sc">!</span><span class="fu">c</span>(mpb, <span class="fu">contains</span>(p.s<span class="sc">$</span>predictor)), <span class="at">names_to=</span><span class="st">"predictor"</span>, <span class="at">values_to=</span><span class="st">"obs"</span>) <span class="sc">%&gt;%</span></span>
+<span id="cb5-107"><a href="#cb5-107"></a>    <span class="fu">split</span>(.<span class="sc">$</span>predictor, <span class="at">drop=</span><span class="cn">TRUE</span>) </span>
+<span id="cb5-108"><a href="#cb5-108"></a>  </span>
+<span id="cb5-109"><a href="#cb5-109"></a>  model <span class="ot">&lt;-</span> <span class="fu">map2</span>(<span class="at">.x=</span>train.split, <span class="at">.y=</span>test.split, <span class="at">.f=</span>ensemble.model) <span class="sc">%&gt;%</span> <span class="fu">bind_rows</span>()</span>
+<span id="cb5-110"><a href="#cb5-110"></a>  </span>
+<span id="cb5-111"><a href="#cb5-111"></a>  result.grid[[i]] <span class="ot">&lt;-</span> p.s <span class="ot">&lt;-</span> model <span class="sc">%&gt;%</span> <span class="fu">mutate</span>(<span class="at">n.feat=</span>i)</span>
+<span id="cb5-112"><a href="#cb5-112"></a>  }</span>
+<span id="cb5-113"><a href="#cb5-113"></a>  </span>
+<span id="cb5-114"><a href="#cb5-114"></a>  <span class="fu">print</span>(<span class="st">"done"</span>)</span>
+<span id="cb5-115"><a href="#cb5-115"></a>  </span>
+<span id="cb5-116"><a href="#cb5-116"></a>  }  </span>
+<span id="cb5-117"><a href="#cb5-117"></a>    </span>
+<span id="cb5-118"><a href="#cb5-118"></a>    </span>
+<span id="cb5-119"><a href="#cb5-119"></a>  }</span>
+<span id="cb5-120"><a href="#cb5-120"></a>  </span>
+<span id="cb5-121"><a href="#cb5-121"></a>  results <span class="ot">&lt;-</span> result.grid <span class="sc">%&gt;%</span> <span class="fu">bind_rows</span>() <span class="sc">%&gt;%</span></span>
+<span id="cb5-122"><a href="#cb5-122"></a>    <span class="fu">write_csv</span>(<span class="fu">paste0</span>(<span class="st">"var.selex/vs."</span>, iter, <span class="st">".csv"</span>))</span>
+<span id="cb5-123"><a href="#cb5-123"></a>  </span>
+<span id="cb5-124"><a href="#cb5-124"></a>}</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<p><strong>Code Block 4:</strong> Methods and code for model interpretation.</p>
+</section>
+<section id="section-1" class="level2">
+<h2 class="anchored" data-anchor-id="section-1">4</h2>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb6"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb6-1"><a href="#cb6-1"></a><span class="do">#### explain_mlr3 allows us to easily interpret mlr3 based models</span></span>
+<span id="cb6-2"><a href="#cb6-2"></a></span>
+<span id="cb6-3"><a href="#cb6-3"></a>mpb.exp <span class="ot">&lt;-</span> <span class="fu">explain_mlr3</span>(<span class="at">model=</span>ensemble,</span>
+<span id="cb6-4"><a href="#cb6-4"></a>                        <span class="at">data=</span>test.set <span class="sc">%&gt;%</span> <span class="fu">select</span>(<span class="sc">-</span>mpb),</span>
+<span id="cb6-5"><a href="#cb6-5"></a>                           <span class="at">y=</span>test.set <span class="sc">%&gt;%</span> <span class="fu">select</span>(mpb)) </span>
+<span id="cb6-6"><a href="#cb6-6"></a></span>
+<span id="cb6-7"><a href="#cb6-7"></a><span class="do">#### model_profile allows us to create accumulated local dependence profiles;</span></span>
+<span id="cb6-8"><a href="#cb6-8"></a><span class="do">#### 'variable_splits_with_obs=TRUE' is an additional useful option as it predicts</span></span>
+<span id="cb6-9"><a href="#cb6-9"></a><span class="do">#### all existing unique values in the test data set </span></span>
+<span id="cb6-10"><a href="#cb6-10"></a><span class="do">#### do not use if values are not rounded.</span></span>
+<span id="cb6-11"><a href="#cb6-11"></a></span>
+<span id="cb6-12"><a href="#cb6-12"></a>mpb.mp <span class="ot">&lt;-</span> <span class="fu">model_profile</span>(mpb.exp, <span class="at">type=</span><span class="st">"accumulated"</span>, <span class="at">N=</span><span class="dv">1000</span>, <span class="at">variable_splits_with_obs=</span><span class="cn">TRUE</span>)</span>
+<span id="cb6-13"><a href="#cb6-13"></a></span>
+<span id="cb6-14"><a href="#cb6-14"></a><span class="do">#### relativizing profiles by mean predictions (relative mean predictions)</span></span>
+<span id="cb6-15"><a href="#cb6-15"></a>mean.exp <span class="ot">&lt;-</span> <span class="fu">mean</span>(mpb.exp<span class="sc">$</span>y_hat)</span>
+<span id="cb6-16"><a href="#cb6-16"></a></span>
+<span id="cb6-17"><a href="#cb6-17"></a>x.mt <span class="ot">&lt;-</span> mpb.mp<span class="sc">$</span>agr_profiles <span class="sc">%&gt;%</span></span>
+<span id="cb6-18"><a href="#cb6-18"></a>    janitor<span class="sc">::</span><span class="fu">clean_names</span>() <span class="sc">%&gt;%</span></span>
+<span id="cb6-19"><a href="#cb6-19"></a>    <span class="fu">as_tibble</span>() <span class="sc">%&gt;%</span></span>
+<span id="cb6-20"><a href="#cb6-20"></a>    <span class="fu">mutate</span>(<span class="at">y0=</span>mean.exp) <span class="sc">%&gt;%</span></span>
+<span id="cb6-21"><a href="#cb6-21"></a>    <span class="fu">select</span>(<span class="at">variable=</span>vname, <span class="at">x=</span>x, <span class="at">yhat=</span>yhat, y0) <span class="sc">%&gt;%</span></span>
+<span id="cb6-22"><a href="#cb6-22"></a>    <span class="fu">mutate</span>(<span class="at">yt=</span>yhat<span class="sc">-</span>y0, <span class="at">iter=</span>iter) </span>
+<span id="cb6-23"><a href="#cb6-23"></a></span>
+<span id="cb6-24"><a href="#cb6-24"></a><span class="do">#### model performance based on:</span></span>
+<span id="cb6-25"><a href="#cb6-25"></a></span>
+<span id="cb6-26"><a href="#cb6-26"></a><span class="do">#### the model explainer</span></span>
+<span id="cb6-27"><a href="#cb6-27"></a>model.performance <span class="ot">&lt;-</span> <span class="fu">model_performance</span>(mpb.exp)</span>
+<span id="cb6-28"><a href="#cb6-28"></a>  </span>
+<span id="cb6-29"><a href="#cb6-29"></a><span class="do">#### directly from mlr3</span></span>
+<span id="cb6-30"><a href="#cb6-30"></a>model.performance <span class="ot">&lt;-</span> <span class="fu">data.frame</span>(</span>
+<span id="cb6-31"><a href="#cb6-31"></a>    <span class="at">acc =</span> model.test<span class="sc">$</span><span class="fu">score</span>(<span class="fu">msr</span>(<span class="st">"classif.acc"</span>)),</span>
+<span id="cb6-32"><a href="#cb6-32"></a>    <span class="at">auc =</span> model.test<span class="sc">$</span><span class="fu">score</span>(<span class="fu">msr</span>(<span class="st">"classif.auc"</span>)),</span>
+<span id="cb6-33"><a href="#cb6-33"></a>    <span class="at">ce =</span> model.test<span class="sc">$</span><span class="fu">score</span>(<span class="fu">msr</span>(<span class="st">"classif.ce"</span>)),</span>
+<span id="cb6-34"><a href="#cb6-34"></a>    <span class="at">fdr =</span> model.test<span class="sc">$</span><span class="fu">score</span>(<span class="fu">msr</span>(<span class="st">"classif.fdr"</span>)),</span>
+<span id="cb6-35"><a href="#cb6-35"></a>    <span class="at">fnr =</span> model.test<span class="sc">$</span><span class="fu">score</span>(<span class="fu">msr</span>(<span class="st">"classif.fnr"</span>)),</span>
+<span id="cb6-36"><a href="#cb6-36"></a>    <span class="at">fomr =</span> model.test<span class="sc">$</span><span class="fu">score</span>(<span class="fu">msr</span>(<span class="st">"classif.fomr"</span>)),</span>
+<span id="cb6-37"><a href="#cb6-37"></a>    <span class="at">fpr =</span> model.test<span class="sc">$</span><span class="fu">score</span>(<span class="fu">msr</span>(<span class="st">"classif.fpr"</span>)),</span>
+<span id="cb6-38"><a href="#cb6-38"></a>    <span class="at">tnr =</span> model.test<span class="sc">$</span><span class="fu">score</span>(<span class="fu">msr</span>(<span class="st">"classif.tnr"</span>)),</span>
+<span id="cb6-39"><a href="#cb6-39"></a>    <span class="at">tpr =</span> model.test<span class="sc">$</span><span class="fu">score</span>(<span class="fu">msr</span>(<span class="st">"classif.tpr"</span>))) <span class="sc">%&gt;%</span></span>
+<span id="cb6-40"><a href="#cb6-40"></a>  <span class="fu">mutate</span>(<span class="at">iter=</span>iter)</span>
+<span id="cb6-41"><a href="#cb6-41"></a></span>
+<span id="cb6-42"><a href="#cb6-42"></a><span class="do">#### variable importance</span></span>
+<span id="cb6-43"><a href="#cb6-43"></a></span>
+<span id="cb6-44"><a href="#cb6-44"></a>variable.importance <span class="ot">&lt;-</span> <span class="fu">bind_rows</span>(</span>
+<span id="cb6-45"><a href="#cb6-45"></a>    <span class="fu">model_parts</span>(mpb.exp) <span class="sc">%&gt;%</span> <span class="fu">as.data.frame</span>())</span>
+<span id="cb6-46"><a href="#cb6-46"></a>  </span>
+<span id="cb6-47"><a href="#cb6-47"></a><span class="do">#### interactions (h2)</span></span>
+<span id="cb6-48"><a href="#cb6-48"></a>friedmans.h2 <span class="ot">&lt;-</span> hstats<span class="sc">::</span><span class="fu">hstats</span>(mpb.exp)</span>
+<span id="cb6-49"><a href="#cb6-49"></a>summary.h2 <span class="ot">&lt;-</span> <span class="fu">summary</span>(friedmans.h2)</span>
+<span id="cb6-50"><a href="#cb6-50"></a></span>
+<span id="cb6-51"><a href="#cb6-51"></a>two.way <span class="ot">&lt;-</span> summary.h2<span class="sc">$</span>h2_pairwise<span class="sc">$</span>M <span class="sc">%&gt;%</span></span>
+<span id="cb6-52"><a href="#cb6-52"></a>    <span class="fu">as.data.frame</span>() <span class="sc">%&gt;%</span></span>
+<span id="cb6-53"><a href="#cb6-53"></a>    <span class="fu">rownames_to_column</span>() <span class="sc">%&gt;%</span></span>
+<span id="cb6-54"><a href="#cb6-54"></a>    <span class="fu">select</span>(<span class="at">inx=</span>rowname, <span class="at">h2=</span>V1) <span class="sc">%&gt;%</span></span>
+<span id="cb6-55"><a href="#cb6-55"></a>    <span class="fu">mutate</span>(<span class="at">type=</span><span class="st">"two-way"</span>)</span>
+<span id="cb6-56"><a href="#cb6-56"></a>    </span>
+<span id="cb6-57"><a href="#cb6-57"></a>one.way <span class="ot">&lt;-</span> summary.h2<span class="sc">$</span>h2_overall<span class="sc">$</span>M <span class="sc">%&gt;%</span></span>
+<span id="cb6-58"><a href="#cb6-58"></a>    <span class="fu">as.data.frame</span>() <span class="sc">%&gt;%</span></span>
+<span id="cb6-59"><a href="#cb6-59"></a>    <span class="fu">rownames_to_column</span>() <span class="sc">%&gt;%</span></span>
+<span id="cb6-60"><a href="#cb6-60"></a>    <span class="fu">select</span>(<span class="at">inx=</span>rowname, <span class="at">h2=</span>V1) <span class="sc">%&gt;%</span></span>
+<span id="cb6-61"><a href="#cb6-61"></a>    <span class="fu">mutate</span>(<span class="at">type=</span><span class="st">"one-way"</span>) </span>
+<span id="cb6-62"><a href="#cb6-62"></a>  </span>
+<span id="cb6-63"><a href="#cb6-63"></a>overall <span class="ot">&lt;-</span> <span class="fu">data.frame</span>(<span class="at">inx=</span><span class="st">"overall"</span>, <span class="at">h2=</span>summary.h2<span class="sc">$</span>h2<span class="sc">$</span>M, <span class="at">type=</span><span class="st">"overall"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 
 
+<!-- -->
 
-
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -221,6 +590,13 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }
   }
   toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
   const isCodeAnnotation = (el) => {
     for (const clz of el.classList) {
       if (clz.startsWith('code-annotation-')) {                     
@@ -283,6 +659,57 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       container: window.document.getElementById('quarto-embedded-source-code-modal')
     });
     clipboardModal.on('success', onCopySuccess);
+  }
+  const viewSource = window.document.getElementById('quarto-view-source') ||
+                     window.document.getElementById('quarto-code-tools-source');
+  if (viewSource) {
+    const sourceUrl = viewSource.getAttribute("data-quarto-source-url");
+    viewSource.addEventListener("click", function(e) {
+      if (sourceUrl) {
+        // rstudio viewer pane
+        if (/\bcapabilities=\b/.test(window.location)) {
+          window.open(sourceUrl);
+        } else {
+          window.location.href = sourceUrl;
+        }
+      } else {
+        const modal = new bootstrap.Modal(document.getElementById('quarto-embedded-source-code-modal'));
+        modal.show();
+      }
+      return false;
+    });
+  }
+  function toggleCodeHandler(show) {
+    return function(e) {
+      const detailsSrc = window.document.querySelectorAll(".cell > details > .sourceCode");
+      for (let i=0; i<detailsSrc.length; i++) {
+        const details = detailsSrc[i].parentElement;
+        if (show) {
+          details.open = true;
+        } else {
+          details.removeAttribute("open");
+        }
+      }
+      const cellCodeDivs = window.document.querySelectorAll(".cell > .sourceCode");
+      const fromCls = show ? "hidden" : "unhidden";
+      const toCls = show ? "unhidden" : "hidden";
+      for (let i=0; i<cellCodeDivs.length; i++) {
+        const codeDiv = cellCodeDivs[i];
+        if (codeDiv.classList.contains(fromCls)) {
+          codeDiv.classList.remove(fromCls);
+          codeDiv.classList.add(toCls);
+        } 
+      }
+      return false;
+    }
+  }
+  const hideAllCode = window.document.getElementById("quarto-hide-all-code");
+  if (hideAllCode) {
+    hideAllCode.addEventListener("click", toggleCodeHandler(false));
+  }
+  const showAllCode = window.document.getElementById("quarto-show-all-code");
+  if (showAllCode) {
+    showAllCode.addEventListener("click", toggleCodeHandler(true));
   }
     var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
     var mailtoRegex = new RegExp(/^mailto:/);
@@ -613,7 +1040,395 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }
   }
 });
-</script>
+</script><div class="modal fade" id="quarto-embedded-source-code-modal" tabindex="-1" aria-labelledby="quarto-embedded-source-code-modal-label" aria-hidden="true"><div class="modal-dialog modal-dialog-scrollable"><div class="modal-content"><div class="modal-header"><h5 class="modal-title" id="quarto-embedded-source-code-modal-label">Source Code</h5><button class="btn-close" data-bs-dismiss="modal"></button></div><div class="modal-body"><div class="">
+<div class="sourceCode" id="cb7" data-shortcodes="false"><pre class="sourceCode numberSource markdown number-lines code-with-copy"><code class="sourceCode markdown"><span id="cb7-1"><a href="#cb7-1"></a><span class="co">---</span></span>
+<span id="cb7-2"><a href="#cb7-2"></a><span class="an">title:</span><span class="co"> "Modeling w/Mike"</span></span>
+<span id="cb7-3"><a href="#cb7-3"></a><span class="an">format:</span><span class="co"> </span></span>
+<span id="cb7-4"><a href="#cb7-4"></a><span class="co">  html:</span></span>
+<span id="cb7-5"><a href="#cb7-5"></a><span class="co">    code-tools: true</span></span>
+<span id="cb7-6"><a href="#cb7-6"></a><span class="co">    code-overflow: wrap</span></span>
+<span id="cb7-7"><a href="#cb7-7"></a><span class="co">    code-block-border-left: true    </span></span>
+<span id="cb7-8"><a href="#cb7-8"></a><span class="co">    code-line-numbers: true</span></span>
+<span id="cb7-9"><a href="#cb7-9"></a></span>
+<span id="cb7-10"><a href="#cb7-10"></a><span class="co">---</span></span>
+<span id="cb7-11"><a href="#cb7-11"></a></span>
+<span id="cb7-12"><a href="#cb7-12"></a><span class="in">```{r setup, include=FALSE}</span></span>
+<span id="cb7-13"><a href="#cb7-13"></a><span class="in">knitr::opts_chunk$set(echo = TRUE)</span></span>
+<span id="cb7-14"><a href="#cb7-14"></a><span class="in">```</span></span>
+<span id="cb7-15"><a href="#cb7-15"></a></span>
+<span id="cb7-16"><a href="#cb7-16"></a><span class="fu">## Code Blocks</span></span>
+<span id="cb7-17"><a href="#cb7-17"></a><span class="fu">### Howe and Nelson *in prep.*</span></span>
+<span id="cb7-18"><a href="#cb7-18"></a>Please cite this manuscript if you use our generic code examples.</span>
+<span id="cb7-19"><a href="#cb7-19"></a></span>
+<span id="cb7-20"><a href="#cb7-20"></a>&lt;p&gt;</span>
+<span id="cb7-21"><a href="#cb7-21"></a></span>
+<span id="cb7-22"><a href="#cb7-22"></a>**Code Block 1:** Generic example of model construction using **A)** *S3* objects (mlr) and **B)** *R6* objects (mlr3). In both approaches we are randomly drawing a training (train.set) and test (test.set) dataset from our full dataset (full.dataset). The model stacking ensemble that we use in **B** requires *mlr3pipelines*.</span>
+<span id="cb7-23"><a href="#cb7-23"></a></span>
+<span id="cb7-24"><a href="#cb7-24"></a>&lt;/p&gt;</span>
+<span id="cb7-25"><a href="#cb7-25"></a></span>
+<span id="cb7-26"><a href="#cb7-26"></a><span class="fu">## 1.A</span></span>
+<span id="cb7-27"><a href="#cb7-27"></a></span>
+<span id="cb7-28"><a href="#cb7-28"></a><span class="in">```{r 1.A, eval=FALSE}</span></span>
+<span id="cb7-29"><a href="#cb7-29"></a></span>
+<span id="cb7-30"><a href="#cb7-30"></a><span class="in">#### S3: mlr  ####</span></span>
+<span id="cb7-31"><a href="#cb7-31"></a></span>
+<span id="cb7-32"><a href="#cb7-32"></a><span class="in">learner.randomforest = setHyperPars(</span></span>
+<span id="cb7-33"><a href="#cb7-33"></a><span class="in">              makeLearner("classif.ranger", </span></span>
+<span id="cb7-34"><a href="#cb7-34"></a><span class="in">              num.threads=12, </span></span>
+<span id="cb7-35"><a href="#cb7-35"></a><span class="in">              predict.type = "prob", </span></span>
+<span id="cb7-36"><a href="#cb7-36"></a><span class="in">              importance="impurity", </span></span>
+<span id="cb7-37"><a href="#cb7-37"></a><span class="in">              predict.threshold = 0.5), </span></span>
+<span id="cb7-38"><a href="#cb7-38"></a><span class="in">              par.vals = list(num.trees=250, verbose=TRUE))</span></span>
+<span id="cb7-39"><a href="#cb7-39"></a></span>
+<span id="cb7-40"><a href="#cb7-40"></a><span class="in">learner.XGBoost = setHyperPars(</span></span>
+<span id="cb7-41"><a href="#cb7-41"></a><span class="in">              makeLearner("classif.xgboost", </span></span>
+<span id="cb7-42"><a href="#cb7-42"></a><span class="in">              nthread=12, </span></span>
+<span id="cb7-43"><a href="#cb7-43"></a><span class="in">              predict.type = "prob", </span></span>
+<span id="cb7-44"><a href="#cb7-44"></a><span class="in">              predict.threshold = 0.5), </span></span>
+<span id="cb7-45"><a href="#cb7-45"></a><span class="in">              par.vals = list(nrounds = 250,</span></span>
+<span id="cb7-46"><a href="#cb7-46"></a><span class="in">              max_depth = 8,</span></span>
+<span id="cb7-47"><a href="#cb7-47"></a><span class="in">              alpha=0.022,</span></span>
+<span id="cb7-48"><a href="#cb7-48"></a><span class="in">              eta = 0.36, </span></span>
+<span id="cb7-49"><a href="#cb7-49"></a><span class="in">              lambda = 0.1))</span></span>
+<span id="cb7-50"><a href="#cb7-50"></a></span>
+<span id="cb7-51"><a href="#cb7-51"></a><span class="in">ensemble = makeStackedLearner(base.learners = list(</span></span>
+<span id="cb7-52"><a href="#cb7-52"></a><span class="in">    learner.randomforest, </span></span>
+<span id="cb7-53"><a href="#cb7-53"></a><span class="in">    learner.XGBoost),</span></span>
+<span id="cb7-54"><a href="#cb7-54"></a><span class="in">    method="average",</span></span>
+<span id="cb7-55"><a href="#cb7-55"></a><span class="in">    predict.type = "prob")</span></span>
+<span id="cb7-56"><a href="#cb7-56"></a></span>
+<span id="cb7-57"><a href="#cb7-57"></a><span class="in">train.set &lt;- full.dataset %&gt;%</span></span>
+<span id="cb7-58"><a href="#cb7-58"></a><span class="in">    group_by(mpb) %&gt;%</span></span>
+<span id="cb7-59"><a href="#cb7-59"></a><span class="in">    slice_sample(n=50000) %&gt;%</span></span>
+<span id="cb7-60"><a href="#cb7-60"></a><span class="in">    mutate(mpb=as.factor(mpb)) %&gt;%</span></span>
+<span id="cb7-61"><a href="#cb7-61"></a><span class="in">    as.data.frame()</span></span>
+<span id="cb7-62"><a href="#cb7-62"></a><span class="in">  </span></span>
+<span id="cb7-63"><a href="#cb7-63"></a><span class="in">test.set &lt;- full.dataset %&gt;%</span></span>
+<span id="cb7-64"><a href="#cb7-64"></a><span class="in">    group_by(mpb) %&gt;%</span></span>
+<span id="cb7-65"><a href="#cb7-65"></a><span class="in">    slice_sample(n=50000) %&gt;%</span></span>
+<span id="cb7-66"><a href="#cb7-66"></a><span class="in">    mutate(mpb=as.factor(mpb)) %&gt;%</span></span>
+<span id="cb7-67"><a href="#cb7-67"></a><span class="in">    as.data.frame()</span></span>
+<span id="cb7-68"><a href="#cb7-68"></a><span class="in">  </span></span>
+<span id="cb7-69"><a href="#cb7-69"></a><span class="in">model.train &lt;- train.set %&gt;%</span></span>
+<span id="cb7-70"><a href="#cb7-70"></a><span class="in">    makeClassifTask(data=., target="mpb", positive="1") %&gt;%</span></span>
+<span id="cb7-71"><a href="#cb7-71"></a><span class="in">    train(ensemble, .)</span></span>
+<span id="cb7-72"><a href="#cb7-72"></a></span>
+<span id="cb7-73"><a href="#cb7-73"></a><span class="in">model.predict &lt;- test.set %&gt;%</span></span>
+<span id="cb7-74"><a href="#cb7-74"></a><span class="in">    makeClassifTask(data=., target="mpb", positive="1") %&gt;%</span></span>
+<span id="cb7-75"><a href="#cb7-75"></a><span class="in">    predict(model.train, .)</span></span>
+<span id="cb7-76"><a href="#cb7-76"></a><span class="in">```</span></span>
+<span id="cb7-77"><a href="#cb7-77"></a></span>
+<span id="cb7-78"><a href="#cb7-78"></a><span class="fu">## 1.B</span></span>
+<span id="cb7-79"><a href="#cb7-79"></a></span>
+<span id="cb7-80"><a href="#cb7-80"></a><span class="in">```{r 1.B, eval=FALSE}</span></span>
+<span id="cb7-81"><a href="#cb7-81"></a></span>
+<span id="cb7-82"><a href="#cb7-82"></a><span class="in">#### R6: mlr3 ####</span></span>
+<span id="cb7-83"><a href="#cb7-83"></a></span>
+<span id="cb7-84"><a href="#cb7-84"></a><span class="in">learner.randomforest &lt;- lrn(</span></span>
+<span id="cb7-85"><a href="#cb7-85"></a><span class="in">  "classif.ranger", </span></span>
+<span id="cb7-86"><a href="#cb7-86"></a><span class="in">  num.threads=12, </span></span>
+<span id="cb7-87"><a href="#cb7-87"></a><span class="in">  num.trees = 250, </span></span>
+<span id="cb7-88"><a href="#cb7-88"></a><span class="in">  importance="impurity",</span></span>
+<span id="cb7-89"><a href="#cb7-89"></a><span class="in">  predict_type="prob")</span></span>
+<span id="cb7-90"><a href="#cb7-90"></a></span>
+<span id="cb7-91"><a href="#cb7-91"></a><span class="in">learner.XGBoost &lt;- lrn(</span></span>
+<span id="cb7-92"><a href="#cb7-92"></a><span class="in">  "classif.xgboost",</span></span>
+<span id="cb7-93"><a href="#cb7-93"></a><span class="in">  nthread=12,</span></span>
+<span id="cb7-94"><a href="#cb7-94"></a><span class="in">  alpha=0.022,</span></span>
+<span id="cb7-95"><a href="#cb7-95"></a><span class="in">  eta = 0.36, </span></span>
+<span id="cb7-96"><a href="#cb7-96"></a><span class="in">  lambda = 0.1,</span></span>
+<span id="cb7-97"><a href="#cb7-97"></a><span class="in">  max_depth=8,</span></span>
+<span id="cb7-98"><a href="#cb7-98"></a><span class="in">  nrounds=250,</span></span>
+<span id="cb7-99"><a href="#cb7-99"></a><span class="in">  predict_type="prob")</span></span>
+<span id="cb7-100"><a href="#cb7-100"></a></span>
+<span id="cb7-101"><a href="#cb7-101"></a><span class="in">train.set &lt;- full.dataset %&gt;%</span></span>
+<span id="cb7-102"><a href="#cb7-102"></a><span class="in">    group_by(mpb) %&gt;%</span></span>
+<span id="cb7-103"><a href="#cb7-103"></a><span class="in">    slice_sample(n=50000) %&gt;%</span></span>
+<span id="cb7-104"><a href="#cb7-104"></a><span class="in">    as.data.frame()</span></span>
+<span id="cb7-105"><a href="#cb7-105"></a><span class="in">  </span></span>
+<span id="cb7-106"><a href="#cb7-106"></a><span class="in">test.set &lt;- full.dataset %&gt;%</span></span>
+<span id="cb7-107"><a href="#cb7-107"></a><span class="in">    group_by(mpb) %&gt;%</span></span>
+<span id="cb7-108"><a href="#cb7-108"></a><span class="in">    slice_sample(n=50000) %&gt;%</span></span>
+<span id="cb7-109"><a href="#cb7-109"></a><span class="in">    as.data.frame()</span></span>
+<span id="cb7-110"><a href="#cb7-110"></a></span>
+<span id="cb7-111"><a href="#cb7-111"></a><span class="in">training.task &lt;- as_task_classif(x=train.set, target="mpb")  </span></span>
+<span id="cb7-112"><a href="#cb7-112"></a><span class="in">testing.task &lt;-  as_task_classif(x=test.set, target="mpb")  </span></span>
+<span id="cb7-113"><a href="#cb7-113"></a></span>
+<span id="cb7-114"><a href="#cb7-114"></a><span class="in">ensemble.pipeline &lt;- </span></span>
+<span id="cb7-115"><a href="#cb7-115"></a><span class="in">  gunion(list(</span></span>
+<span id="cb7-116"><a href="#cb7-116"></a><span class="in">    PipeOpLearnerCV$new(learner.randomforest, id = "xgb"),</span></span>
+<span id="cb7-117"><a href="#cb7-117"></a><span class="in">    PipeOpLearnerCV$new(learner.XGBoost, id = "rf")</span></span>
+<span id="cb7-118"><a href="#cb7-118"></a><span class="in">  ))</span></span>
+<span id="cb7-119"><a href="#cb7-119"></a></span>
+<span id="cb7-120"><a href="#cb7-120"></a><span class="in">ensemble.average &lt;- LearnerClassifAvg$new(id = "classif")</span></span>
+<span id="cb7-121"><a href="#cb7-121"></a></span>
+<span id="cb7-122"><a href="#cb7-122"></a><span class="in">ensemble.model &lt;- ensemble.pipeline %&gt;&gt;%</span></span>
+<span id="cb7-123"><a href="#cb7-123"></a><span class="in">  PipeOpFeatureUnion$new(2, id = "avg") %&gt;&gt;%</span></span>
+<span id="cb7-124"><a href="#cb7-124"></a><span class="in">  ensemble.average</span></span>
+<span id="cb7-125"><a href="#cb7-125"></a></span>
+<span id="cb7-126"><a href="#cb7-126"></a><span class="in">ensemble &lt;- GraphLearner$new(ensemble.model, predict_type="prob")</span></span>
+<span id="cb7-127"><a href="#cb7-127"></a><span class="in">model.train &lt;- ensemble$train(training.task)</span></span>
+<span id="cb7-128"><a href="#cb7-128"></a><span class="in">model.test &lt;- ensemble$predict(test.task)</span></span>
+<span id="cb7-129"><a href="#cb7-129"></a></span>
+<span id="cb7-130"><a href="#cb7-130"></a><span class="in">```</span></span>
+<span id="cb7-131"><a href="#cb7-131"></a></span>
+<span id="cb7-132"><a href="#cb7-132"></a>Code Block 2: Generic example of hyperparameter tuning using the default tuning space for XGBoost. We constrained the number of rounds to 250-500 and the max depth to 5-10 based on processing limitations.</span>
+<span id="cb7-133"><a href="#cb7-133"></a></span>
+<span id="cb7-134"><a href="#cb7-134"></a><span class="fu">## 2</span></span>
+<span id="cb7-135"><a href="#cb7-135"></a></span>
+<span id="cb7-136"><a href="#cb7-136"></a><span class="in">```{r 2, eval=FALSE}</span></span>
+<span id="cb7-137"><a href="#cb7-137"></a></span>
+<span id="cb7-138"><a href="#cb7-138"></a><span class="in">#### tuning space ####</span></span>
+<span id="cb7-139"><a href="#cb7-139"></a></span>
+<span id="cb7-140"><a href="#cb7-140"></a><span class="in">xgboost.lts &lt;- lts("classif.xgboost.default",</span></span>
+<span id="cb7-141"><a href="#cb7-141"></a><span class="in">              nrounds=to_tune(250, 500),</span></span>
+<span id="cb7-142"><a href="#cb7-142"></a><span class="in">              max_depth=to_tune(5,10),</span></span>
+<span id="cb7-143"><a href="#cb7-143"></a><span class="in">              subsample=NULL,</span></span>
+<span id="cb7-144"><a href="#cb7-144"></a><span class="in">              colsample_bylevel=NULL,</span></span>
+<span id="cb7-145"><a href="#cb7-145"></a><span class="in">              colsample_bytree=NULL)</span></span>
+<span id="cb7-146"><a href="#cb7-146"></a></span>
+<span id="cb7-147"><a href="#cb7-147"></a><span class="in">#### tuner ####</span></span>
+<span id="cb7-148"><a href="#cb7-148"></a></span>
+<span id="cb7-149"><a href="#cb7-149"></a><span class="in">xgboost.ti &lt;- ti(</span></span>
+<span id="cb7-150"><a href="#cb7-150"></a><span class="in">  task=training.task,</span></span>
+<span id="cb7-151"><a href="#cb7-151"></a><span class="in">  learner=lrn("classif.xgboost", nthread=12),</span></span>
+<span id="cb7-152"><a href="#cb7-152"></a><span class="in">  resampling=rsmp("cv", folds=3),</span></span>
+<span id="cb7-153"><a href="#cb7-153"></a><span class="in">  measures = msr("classif.ce"),</span></span>
+<span id="cb7-154"><a href="#cb7-154"></a><span class="in">  terminator=trm("evals", n_evals=10),</span></span>
+<span id="cb7-155"><a href="#cb7-155"></a><span class="in">  search_space = c.xgb.lts</span></span>
+<span id="cb7-156"><a href="#cb7-156"></a><span class="in">)</span></span>
+<span id="cb7-157"><a href="#cb7-157"></a></span>
+<span id="cb7-158"><a href="#cb7-158"></a><span class="in">#### grid search  ####</span></span>
+<span id="cb7-159"><a href="#cb7-159"></a></span>
+<span id="cb7-160"><a href="#cb7-160"></a><span class="in">xgboost.tnr &lt;- tnr("grid_search", batch_size=50)</span></span>
+<span id="cb7-161"><a href="#cb7-161"></a></span>
+<span id="cb7-162"><a href="#cb7-162"></a><span class="in">#### optimize ####</span></span>
+<span id="cb7-163"><a href="#cb7-163"></a></span>
+<span id="cb7-164"><a href="#cb7-164"></a><span class="in">xgboost.tnr$optimize(xgboost.ti)</span></span>
+<span id="cb7-165"><a href="#cb7-165"></a></span>
+<span id="cb7-166"><a href="#cb7-166"></a><span class="in">```</span></span>
+<span id="cb7-167"><a href="#cb7-167"></a></span>
+<span id="cb7-168"><a href="#cb7-168"></a>Code Block 3: Generic example of forward selection using **A)** mlr3fselect; and **B)** our forward selection algorithm. Our variable selection function 'var.selex' calls the function 'ensemble.model' which simply takes a list of training and testing datasets (one for each predictor), fits a model based on the training dataset and calculates perforamnce based on the testing dataset. </span>
+<span id="cb7-169"><a href="#cb7-169"></a></span>
+<span id="cb7-170"><a href="#cb7-170"></a><span class="fu">## 3.A</span></span>
+<span id="cb7-171"><a href="#cb7-171"></a></span>
+<span id="cb7-172"><a href="#cb7-172"></a><span class="in">```{r, eval=FALSE}</span></span>
+<span id="cb7-173"><a href="#cb7-173"></a></span>
+<span id="cb7-174"><a href="#cb7-174"></a><span class="in">model.fselect = fselect(</span></span>
+<span id="cb7-175"><a href="#cb7-175"></a><span class="in">  fselector = fs("sequential", max_features=10),</span></span>
+<span id="cb7-176"><a href="#cb7-176"></a><span class="in">  task = training.task,</span></span>
+<span id="cb7-177"><a href="#cb7-177"></a><span class="in">  learner = ensemble,</span></span>
+<span id="cb7-178"><a href="#cb7-178"></a><span class="in">  resampling = rsmp("holdout"),</span></span>
+<span id="cb7-179"><a href="#cb7-179"></a><span class="in">  measure = msr("classif.ce"))</span></span>
+<span id="cb7-180"><a href="#cb7-180"></a></span>
+<span id="cb7-181"><a href="#cb7-181"></a><span class="in">```</span></span>
+<span id="cb7-182"><a href="#cb7-182"></a></span>
+<span id="cb7-183"><a href="#cb7-183"></a><span class="fu">## 3.B</span></span>
+<span id="cb7-184"><a href="#cb7-184"></a></span>
+<span id="cb7-185"><a href="#cb7-185"></a><span class="in">```{r, eval=FALSE}</span></span>
+<span id="cb7-186"><a href="#cb7-186"></a></span>
+<span id="cb7-187"><a href="#cb7-187"></a><span class="in">ensemble.model &lt;- function(df.train, df.test){</span></span>
+<span id="cb7-188"><a href="#cb7-188"></a><span class="in">  </span></span>
+<span id="cb7-189"><a href="#cb7-189"></a><span class="in">  df.prdctr &lt;- df.train %&gt;% select(predictor) %&gt;% distinct() %&gt;% pull()</span></span>
+<span id="cb7-190"><a href="#cb7-190"></a><span class="in">  df.trn &lt;- df.train %&gt;% select(-predictor)</span></span>
+<span id="cb7-191"><a href="#cb7-191"></a><span class="in">  df.tst &lt;- df.test %&gt;% select(-predictor)</span></span>
+<span id="cb7-192"><a href="#cb7-192"></a><span class="in">  </span></span>
+<span id="cb7-193"><a href="#cb7-193"></a><span class="in">  sample.tsk &lt;- as_task_classif(x=df.trn, target="mpb")</span></span>
+<span id="cb7-194"><a href="#cb7-194"></a><span class="in">  sample.tst &lt;- as_task_classif(x=df.tst, target="mpb")</span></span>
+<span id="cb7-195"><a href="#cb7-195"></a></span>
+<span id="cb7-196"><a href="#cb7-196"></a><span class="in">  m.e.cv = GraphLearner$new(m.1, predict_type="prob")  </span></span>
+<span id="cb7-197"><a href="#cb7-197"></a><span class="in">  m.train &lt;- m.e.cv$train(sample.tsk)</span></span>
+<span id="cb7-198"><a href="#cb7-198"></a><span class="in">  m.prd &lt;- m.e.cv$predict(sample.tst)</span></span>
+<span id="cb7-199"><a href="#cb7-199"></a><span class="in">  </span></span>
+<span id="cb7-200"><a href="#cb7-200"></a><span class="in">  m.prf &lt;- data.frame(</span></span>
+<span id="cb7-201"><a href="#cb7-201"></a><span class="in">    acc = m.prd$score(msr("classif.acc")),</span></span>
+<span id="cb7-202"><a href="#cb7-202"></a><span class="in">    auc = m.prd$score(msr("classif.auc")),</span></span>
+<span id="cb7-203"><a href="#cb7-203"></a><span class="in">    ce = m.prd$score(msr("classif.ce")),</span></span>
+<span id="cb7-204"><a href="#cb7-204"></a><span class="in">    fdr = m.prd$score(msr("classif.fdr")),</span></span>
+<span id="cb7-205"><a href="#cb7-205"></a><span class="in">    fnr = m.prd$score(msr("classif.fnr")),</span></span>
+<span id="cb7-206"><a href="#cb7-206"></a><span class="in">    fomr = m.prd$score(msr("classif.fomr")),</span></span>
+<span id="cb7-207"><a href="#cb7-207"></a><span class="in">    fpr = m.prd$score(msr("classif.fpr")),</span></span>
+<span id="cb7-208"><a href="#cb7-208"></a><span class="in">    tnr = m.prd$score(msr("classif.tnr")),</span></span>
+<span id="cb7-209"><a href="#cb7-209"></a><span class="in">    tpr = m.prd$score(msr("classif.tpr"))) %&gt;%</span></span>
+<span id="cb7-210"><a href="#cb7-210"></a><span class="in">    as_tibble() %&gt;% bind_cols(t(m.train$timings) %&gt;% as_tibble()) %&gt;% </span></span>
+<span id="cb7-211"><a href="#cb7-211"></a><span class="in">    mutate(predictor=df.prdctr)</span></span>
+<span id="cb7-212"><a href="#cb7-212"></a></span>
+<span id="cb7-213"><a href="#cb7-213"></a><span class="in">  return(m.prf)</span></span>
+<span id="cb7-214"><a href="#cb7-214"></a><span class="in">  </span></span>
+<span id="cb7-215"><a href="#cb7-215"></a><span class="in">}</span></span>
+<span id="cb7-216"><a href="#cb7-216"></a></span>
+<span id="cb7-217"><a href="#cb7-217"></a><span class="in">`%ni%` &lt;- Negate(`%in%`)</span></span>
+<span id="cb7-218"><a href="#cb7-218"></a></span>
+<span id="cb7-219"><a href="#cb7-219"></a><span class="in">var.selex &lt;- function(train.df, test.df, max.feat=14, cutoff=0.8, iter=j){</span></span>
+<span id="cb7-220"><a href="#cb7-220"></a><span class="in">  </span></span>
+<span id="cb7-221"><a href="#cb7-221"></a><span class="in">  #### correlation matrix ####</span></span>
+<span id="cb7-222"><a href="#cb7-222"></a><span class="in">  # NOTE: this is messy and I'll rewrite it at some point</span></span>
+<span id="cb7-223"><a href="#cb7-223"></a><span class="in">  </span></span>
+<span id="cb7-224"><a href="#cb7-224"></a><span class="in">  corr.mat &lt;- bind_rows(</span></span>
+<span id="cb7-225"><a href="#cb7-225"></a><span class="in">    train.df %&gt;% </span></span>
+<span id="cb7-226"><a href="#cb7-226"></a><span class="in">    bind_rows(test.df) %&gt;%</span></span>
+<span id="cb7-227"><a href="#cb7-227"></a><span class="in">    select(-mpb) %&gt;% </span></span>
+<span id="cb7-228"><a href="#cb7-228"></a><span class="in">    as.matrix() %&gt;% </span></span>
+<span id="cb7-229"><a href="#cb7-229"></a><span class="in">    cor(., method="pearson") %&gt;%</span></span>
+<span id="cb7-230"><a href="#cb7-230"></a><span class="in">    as.data.frame() %&gt;%</span></span>
+<span id="cb7-231"><a href="#cb7-231"></a><span class="in">    rownames_to_column() %&gt;%</span></span>
+<span id="cb7-232"><a href="#cb7-232"></a><span class="in">    pivot_longer(-rowname) %&gt;%</span></span>
+<span id="cb7-233"><a href="#cb7-233"></a><span class="in">    mutate(method="pearson"),</span></span>
+<span id="cb7-234"><a href="#cb7-234"></a><span class="in">    train.df %&gt;% </span></span>
+<span id="cb7-235"><a href="#cb7-235"></a><span class="in">    bind_rows(test.df) %&gt;%</span></span>
+<span id="cb7-236"><a href="#cb7-236"></a><span class="in">    select(-mpb) %&gt;% </span></span>
+<span id="cb7-237"><a href="#cb7-237"></a><span class="in">    as.matrix() %&gt;% </span></span>
+<span id="cb7-238"><a href="#cb7-238"></a><span class="in">    cor(., method="spearman") %&gt;%</span></span>
+<span id="cb7-239"><a href="#cb7-239"></a><span class="in">    as.data.frame() %&gt;%</span></span>
+<span id="cb7-240"><a href="#cb7-240"></a><span class="in">    rownames_to_column() %&gt;%</span></span>
+<span id="cb7-241"><a href="#cb7-241"></a><span class="in">    pivot_longer(-rowname) %&gt;%</span></span>
+<span id="cb7-242"><a href="#cb7-242"></a><span class="in">    mutate(method="spearman")) %&gt;%</span></span>
+<span id="cb7-243"><a href="#cb7-243"></a><span class="in">    mutate(abs.value=abs(value)) %&gt;%</span></span>
+<span id="cb7-244"><a href="#cb7-244"></a><span class="in">    select(var.1=rowname,</span></span>
+<span id="cb7-245"><a href="#cb7-245"></a><span class="in">           var.2=name,</span></span>
+<span id="cb7-246"><a href="#cb7-246"></a><span class="in">           method, abs.value) %&gt;%</span></span>
+<span id="cb7-247"><a href="#cb7-247"></a><span class="in">    pivot_wider(values_from=abs.value, names_from=method)</span></span>
+<span id="cb7-248"><a href="#cb7-248"></a><span class="in">  </span></span>
+<span id="cb7-249"><a href="#cb7-249"></a><span class="in">  #### result.grid  ####</span></span>
+<span id="cb7-250"><a href="#cb7-250"></a><span class="in">  </span></span>
+<span id="cb7-251"><a href="#cb7-251"></a><span class="in">  result.grid &lt;- list()</span></span>
+<span id="cb7-252"><a href="#cb7-252"></a></span>
+<span id="cb7-253"><a href="#cb7-253"></a><span class="in">  for(i in 1:max.feat){</span></span>
+<span id="cb7-254"><a href="#cb7-254"></a><span class="in">    </span></span>
+<span id="cb7-255"><a href="#cb7-255"></a><span class="in">  print(paste0("#### model ", i, " ####"))  </span></span>
+<span id="cb7-256"><a href="#cb7-256"></a><span class="in">    </span></span>
+<span id="cb7-257"><a href="#cb7-257"></a><span class="in">  if(i == 1){  </span></span>
+<span id="cb7-258"><a href="#cb7-258"></a></span>
+<span id="cb7-259"><a href="#cb7-259"></a><span class="in">  train.split &lt;- train.df %&gt;%</span></span>
+<span id="cb7-260"><a href="#cb7-260"></a><span class="in">  pivot_longer(-mpb, names_to="predictor", values_to="obs") %&gt;%</span></span>
+<span id="cb7-261"><a href="#cb7-261"></a><span class="in">  split(.$predictor, drop=TRUE) </span></span>
+<span id="cb7-262"><a href="#cb7-262"></a><span class="in">  </span></span>
+<span id="cb7-263"><a href="#cb7-263"></a><span class="in">  test.split &lt;- test.df %&gt;%</span></span>
+<span id="cb7-264"><a href="#cb7-264"></a><span class="in">  pivot_longer(-mpb, names_to="predictor", values_to="obs") %&gt;%</span></span>
+<span id="cb7-265"><a href="#cb7-265"></a><span class="in">  split(.$predictor)    </span></span>
+<span id="cb7-266"><a href="#cb7-266"></a><span class="in">  </span></span>
+<span id="cb7-267"><a href="#cb7-267"></a><span class="in">  model &lt;- map2(.x=train.split, .y=test.split, .f=ensemble.model) %&gt;% bind_rows()  </span></span>
+<span id="cb7-268"><a href="#cb7-268"></a><span class="in">  </span></span>
+<span id="cb7-269"><a href="#cb7-269"></a><span class="in">result.grid[[i]] &lt;- p.s &lt;- model %&gt;% mutate(n.feat=i)</span></span>
+<span id="cb7-270"><a href="#cb7-270"></a><span class="in">   </span></span>
+<span id="cb7-271"><a href="#cb7-271"></a><span class="in">  }else{</span></span>
+<span id="cb7-272"><a href="#cb7-272"></a><span class="in">    </span></span>
+<span id="cb7-273"><a href="#cb7-273"></a><span class="in">  p.s &lt;- result.grid %&gt;% bind_rows() %&gt;% group_by(n.feat) %&gt;%</span></span>
+<span id="cb7-274"><a href="#cb7-274"></a><span class="in">    slice_min(order_by=ce) %&gt;% ungroup()</span></span>
+<span id="cb7-275"><a href="#cb7-275"></a><span class="in">  </span></span>
+<span id="cb7-276"><a href="#cb7-276"></a><span class="in">  crm &lt;- corr.mat %&gt;%</span></span>
+<span id="cb7-277"><a href="#cb7-277"></a><span class="in">    filter(var.1 %in% p.s$predictor) %&gt;%</span></span>
+<span id="cb7-278"><a href="#cb7-278"></a><span class="in">    filter(pearson &gt;= cutoff | spearman &gt;= cutoff)</span></span>
+<span id="cb7-279"><a href="#cb7-279"></a><span class="in">  </span></span>
+<span id="cb7-280"><a href="#cb7-280"></a><span class="in">  can.var &lt;- corr.mat %&gt;% filter(var.2 %ni% crm$var.2) %&gt;%</span></span>
+<span id="cb7-281"><a href="#cb7-281"></a><span class="in">    select(var.2) %&gt;% distinct()</span></span>
+<span id="cb7-282"><a href="#cb7-282"></a><span class="in">    </span></span>
+<span id="cb7-283"><a href="#cb7-283"></a><span class="in">  if(nrow(can.var) &gt; 0){</span></span>
+<span id="cb7-284"><a href="#cb7-284"></a><span class="in">  </span></span>
+<span id="cb7-285"><a href="#cb7-285"></a><span class="in">  train.split &lt;- train.df %&gt;%</span></span>
+<span id="cb7-286"><a href="#cb7-286"></a><span class="in">    select(mpb, contains(p.s$predictor), contains(can.var$var.2)) %&gt;%</span></span>
+<span id="cb7-287"><a href="#cb7-287"></a><span class="in">    pivot_longer(!c(mpb, contains(p.s$predictor)), names_to="predictor", values_to="obs") %&gt;%</span></span>
+<span id="cb7-288"><a href="#cb7-288"></a><span class="in">    split(.$predictor, drop=TRUE) </span></span>
+<span id="cb7-289"><a href="#cb7-289"></a><span class="in">  </span></span>
+<span id="cb7-290"><a href="#cb7-290"></a><span class="in">  test.split &lt;- test.df %&gt;%</span></span>
+<span id="cb7-291"><a href="#cb7-291"></a><span class="in">    select(mpb, contains(p.s$predictor), contains(can.var$var.2)) %&gt;%</span></span>
+<span id="cb7-292"><a href="#cb7-292"></a><span class="in">    pivot_longer(!c(mpb, contains(p.s$predictor)), names_to="predictor", values_to="obs") %&gt;%</span></span>
+<span id="cb7-293"><a href="#cb7-293"></a><span class="in">    split(.$predictor, drop=TRUE) </span></span>
+<span id="cb7-294"><a href="#cb7-294"></a><span class="in">  </span></span>
+<span id="cb7-295"><a href="#cb7-295"></a><span class="in">  model &lt;- map2(.x=train.split, .y=test.split, .f=ensemble.model) %&gt;% bind_rows()</span></span>
+<span id="cb7-296"><a href="#cb7-296"></a><span class="in">  </span></span>
+<span id="cb7-297"><a href="#cb7-297"></a><span class="in">  result.grid[[i]] &lt;- p.s &lt;- model %&gt;% mutate(n.feat=i)</span></span>
+<span id="cb7-298"><a href="#cb7-298"></a><span class="in">  }</span></span>
+<span id="cb7-299"><a href="#cb7-299"></a><span class="in">  </span></span>
+<span id="cb7-300"><a href="#cb7-300"></a><span class="in">  print("done")</span></span>
+<span id="cb7-301"><a href="#cb7-301"></a><span class="in">  </span></span>
+<span id="cb7-302"><a href="#cb7-302"></a><span class="in">  }  </span></span>
+<span id="cb7-303"><a href="#cb7-303"></a><span class="in">    </span></span>
+<span id="cb7-304"><a href="#cb7-304"></a><span class="in">    </span></span>
+<span id="cb7-305"><a href="#cb7-305"></a><span class="in">  }</span></span>
+<span id="cb7-306"><a href="#cb7-306"></a><span class="in">  </span></span>
+<span id="cb7-307"><a href="#cb7-307"></a><span class="in">  results &lt;- result.grid %&gt;% bind_rows() %&gt;%</span></span>
+<span id="cb7-308"><a href="#cb7-308"></a><span class="in">    write_csv(paste0("var.selex/vs.", iter, ".csv"))</span></span>
+<span id="cb7-309"><a href="#cb7-309"></a><span class="in">  </span></span>
+<span id="cb7-310"><a href="#cb7-310"></a><span class="in">}</span></span>
+<span id="cb7-311"><a href="#cb7-311"></a></span>
+<span id="cb7-312"><a href="#cb7-312"></a><span class="in">```</span></span>
+<span id="cb7-313"><a href="#cb7-313"></a></span>
+<span id="cb7-314"><a href="#cb7-314"></a>**Code Block 4:** Methods and code for model interpretation.</span>
+<span id="cb7-315"><a href="#cb7-315"></a></span>
+<span id="cb7-316"><a href="#cb7-316"></a><span class="fu">## 4</span></span>
+<span id="cb7-317"><a href="#cb7-317"></a></span>
+<span id="cb7-318"><a href="#cb7-318"></a><span class="in">```{r, eval=FALSE}</span></span>
+<span id="cb7-319"><a href="#cb7-319"></a></span>
+<span id="cb7-320"><a href="#cb7-320"></a><span class="in">#### explain_mlr3 allows us to easily interpret mlr3 based models</span></span>
+<span id="cb7-321"><a href="#cb7-321"></a></span>
+<span id="cb7-322"><a href="#cb7-322"></a><span class="in">mpb.exp &lt;- explain_mlr3(model=ensemble,</span></span>
+<span id="cb7-323"><a href="#cb7-323"></a><span class="in">                        data=test.set %&gt;% select(-mpb),</span></span>
+<span id="cb7-324"><a href="#cb7-324"></a><span class="in">                           y=test.set %&gt;% select(mpb)) </span></span>
+<span id="cb7-325"><a href="#cb7-325"></a></span>
+<span id="cb7-326"><a href="#cb7-326"></a><span class="in">#### model_profile allows us to create accumulated local dependence profiles;</span></span>
+<span id="cb7-327"><a href="#cb7-327"></a><span class="in">#### 'variable_splits_with_obs=TRUE' is an additional useful option as it predicts</span></span>
+<span id="cb7-328"><a href="#cb7-328"></a><span class="in">#### all existing unique values in the test data set </span></span>
+<span id="cb7-329"><a href="#cb7-329"></a><span class="in">#### do not use if values are not rounded.</span></span>
+<span id="cb7-330"><a href="#cb7-330"></a></span>
+<span id="cb7-331"><a href="#cb7-331"></a><span class="in">mpb.mp &lt;- model_profile(mpb.exp, type="accumulated", N=1000, variable_splits_with_obs=TRUE)</span></span>
+<span id="cb7-332"><a href="#cb7-332"></a></span>
+<span id="cb7-333"><a href="#cb7-333"></a><span class="in">#### relativizing profiles by mean predictions (relative mean predictions)</span></span>
+<span id="cb7-334"><a href="#cb7-334"></a><span class="in">mean.exp &lt;- mean(mpb.exp$y_hat)</span></span>
+<span id="cb7-335"><a href="#cb7-335"></a></span>
+<span id="cb7-336"><a href="#cb7-336"></a><span class="in">x.mt &lt;- mpb.mp$agr_profiles %&gt;%</span></span>
+<span id="cb7-337"><a href="#cb7-337"></a><span class="in">    janitor::clean_names() %&gt;%</span></span>
+<span id="cb7-338"><a href="#cb7-338"></a><span class="in">    as_tibble() %&gt;%</span></span>
+<span id="cb7-339"><a href="#cb7-339"></a><span class="in">    mutate(y0=mean.exp) %&gt;%</span></span>
+<span id="cb7-340"><a href="#cb7-340"></a><span class="in">    select(variable=vname, x=x, yhat=yhat, y0) %&gt;%</span></span>
+<span id="cb7-341"><a href="#cb7-341"></a><span class="in">    mutate(yt=yhat-y0, iter=iter) </span></span>
+<span id="cb7-342"><a href="#cb7-342"></a></span>
+<span id="cb7-343"><a href="#cb7-343"></a><span class="in">#### model performance based on:</span></span>
+<span id="cb7-344"><a href="#cb7-344"></a></span>
+<span id="cb7-345"><a href="#cb7-345"></a><span class="in">#### the model explainer</span></span>
+<span id="cb7-346"><a href="#cb7-346"></a><span class="in">model.performance &lt;- model_performance(mpb.exp)</span></span>
+<span id="cb7-347"><a href="#cb7-347"></a><span class="in">  </span></span>
+<span id="cb7-348"><a href="#cb7-348"></a><span class="in">#### directly from mlr3</span></span>
+<span id="cb7-349"><a href="#cb7-349"></a><span class="in">model.performance &lt;- data.frame(</span></span>
+<span id="cb7-350"><a href="#cb7-350"></a><span class="in">    acc = model.test$score(msr("classif.acc")),</span></span>
+<span id="cb7-351"><a href="#cb7-351"></a><span class="in">    auc = model.test$score(msr("classif.auc")),</span></span>
+<span id="cb7-352"><a href="#cb7-352"></a><span class="in">    ce = model.test$score(msr("classif.ce")),</span></span>
+<span id="cb7-353"><a href="#cb7-353"></a><span class="in">    fdr = model.test$score(msr("classif.fdr")),</span></span>
+<span id="cb7-354"><a href="#cb7-354"></a><span class="in">    fnr = model.test$score(msr("classif.fnr")),</span></span>
+<span id="cb7-355"><a href="#cb7-355"></a><span class="in">    fomr = model.test$score(msr("classif.fomr")),</span></span>
+<span id="cb7-356"><a href="#cb7-356"></a><span class="in">    fpr = model.test$score(msr("classif.fpr")),</span></span>
+<span id="cb7-357"><a href="#cb7-357"></a><span class="in">    tnr = model.test$score(msr("classif.tnr")),</span></span>
+<span id="cb7-358"><a href="#cb7-358"></a><span class="in">    tpr = model.test$score(msr("classif.tpr"))) %&gt;%</span></span>
+<span id="cb7-359"><a href="#cb7-359"></a><span class="in">  mutate(iter=iter)</span></span>
+<span id="cb7-360"><a href="#cb7-360"></a></span>
+<span id="cb7-361"><a href="#cb7-361"></a><span class="in">#### variable importance</span></span>
+<span id="cb7-362"><a href="#cb7-362"></a></span>
+<span id="cb7-363"><a href="#cb7-363"></a><span class="in">variable.importance &lt;- bind_rows(</span></span>
+<span id="cb7-364"><a href="#cb7-364"></a><span class="in">    model_parts(mpb.exp) %&gt;% as.data.frame())</span></span>
+<span id="cb7-365"><a href="#cb7-365"></a><span class="in">  </span></span>
+<span id="cb7-366"><a href="#cb7-366"></a><span class="in">#### interactions (h2)</span></span>
+<span id="cb7-367"><a href="#cb7-367"></a><span class="in">friedmans.h2 &lt;- hstats::hstats(mpb.exp)</span></span>
+<span id="cb7-368"><a href="#cb7-368"></a><span class="in">summary.h2 &lt;- summary(friedmans.h2)</span></span>
+<span id="cb7-369"><a href="#cb7-369"></a></span>
+<span id="cb7-370"><a href="#cb7-370"></a><span class="in">two.way &lt;- summary.h2$h2_pairwise$M %&gt;%</span></span>
+<span id="cb7-371"><a href="#cb7-371"></a><span class="in">    as.data.frame() %&gt;%</span></span>
+<span id="cb7-372"><a href="#cb7-372"></a><span class="in">    rownames_to_column() %&gt;%</span></span>
+<span id="cb7-373"><a href="#cb7-373"></a><span class="in">    select(inx=rowname, h2=V1) %&gt;%</span></span>
+<span id="cb7-374"><a href="#cb7-374"></a><span class="in">    mutate(type="two-way")</span></span>
+<span id="cb7-375"><a href="#cb7-375"></a><span class="in">    </span></span>
+<span id="cb7-376"><a href="#cb7-376"></a><span class="in">one.way &lt;- summary.h2$h2_overall$M %&gt;%</span></span>
+<span id="cb7-377"><a href="#cb7-377"></a><span class="in">    as.data.frame() %&gt;%</span></span>
+<span id="cb7-378"><a href="#cb7-378"></a><span class="in">    rownames_to_column() %&gt;%</span></span>
+<span id="cb7-379"><a href="#cb7-379"></a><span class="in">    select(inx=rowname, h2=V1) %&gt;%</span></span>
+<span id="cb7-380"><a href="#cb7-380"></a><span class="in">    mutate(type="one-way") </span></span>
+<span id="cb7-381"><a href="#cb7-381"></a><span class="in">  </span></span>
+<span id="cb7-382"><a href="#cb7-382"></a><span class="in">overall &lt;- data.frame(inx="overall", h2=summary.h2$h2$M, type="overall")</span></span>
+<span id="cb7-383"><a href="#cb7-383"></a></span>
+<span id="cb7-384"><a href="#cb7-384"></a><span class="in">```</span></span>
+<span id="cb7-385"><a href="#cb7-385"></a></span>
+<span id="cb7-386"><a href="#cb7-386"></a></span>
+<span id="cb7-387"><a href="#cb7-387"></a></span></code><button title="Copy to Clipboard" class="code-copy-button" data-in-quarto-modal=""><i class="bi"></i></button></pre></div>
+</div></div></div></div></div>
 </div> <!-- /content -->
 <footer class="footer">
   <div class="nav-footer">

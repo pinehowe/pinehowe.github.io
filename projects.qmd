@@ -25,29 +25,7 @@ Population irruptions (*i.e.*, outbreaks) by native forest insect herbivores are
 
 ### D) How do
 
-::::: columns
-::: {.column width="50%"}
-##### Active Projects
 
--   Spruce beetle outbreak distribution (late 2024)
--   Latitudinal distribution of Spongy moth outbreaks (late 2024)
--   Impacts of spruce beetle development rate on outbreak likelihood (early 2025)
--   Forest Ecology {{<fa tree>}}
--   Disturbance {{< fa fire >}} x {{< fa bug >}}
--   Climate Change {{< fa sun-plant-wilt >}}
-:::
-
-::: {.column width="50%"}
-##### Published Projects
-
--   Nordic skiing {{< fa person-skiing-nordic >}}
--   mountain biking {{< fa person-biking >}}
--   trail running {{<fa person-running>}}
--   soccer {{< fa futbol >}}
--   travel {{< fa plane-departure >}}
--   mountains {{<fa mountain-sun>}}
-:::
-:::::
 
 ## 2) Disturbance interactions
 

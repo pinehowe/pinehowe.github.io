@@ -1,32 +1,29 @@
 ---
-title: "Modeling w/Mike"
-format: 
-  html:
-    code-tools: true
-    code-overflow: wrap
-    code-block-border-left: true    
-    code-line-numbers: true
-
+code-block-border-left: true
+title: Modeling w/Mike
+toc-title: Table of contents
 ---
 
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
-```
-
 ## Code Blocks
+
 ### Howe and Nelson *in prep.*
-Please cite this manuscript if you use our generic code examples.
+
+### Please cite this manuscript if you use our generic code examples.
 
 <p>
 
-**Code Block 1:** Generic example of model construction using **A)** *S3* objects (mlr) and **B)** *R6* objects (mlr3). In both approaches we are randomly drawing a training (train.set) and test (test.set) dataset from our full dataset (full.dataset). The model stacking ensemble that we use in **B** requires *mlr3pipelines*.
+**Code Block 1:** Generic example of model construction using **A)**
+*S3* objects (mlr) and **B)** *R6* objects (mlr3). In both approaches we
+are randomly drawing a training (train.set) and test (test.set) dataset
+from our full dataset (full.dataset). The model stacking ensemble that
+we use in **B** requires *mlr3pipelines*.
 
 </p>
 
-## 1.A
+**1.A**
 
-```{r 1.A, eval=FALSE}
-
+::: cell
+``` {.r .cell-code .number-lines}
 #### S3: mlr  ####
 
 learner.randomforest = setHyperPars(
@@ -74,11 +71,12 @@ model.predict <- test.set %>%
     makeClassifTask(data=., target="mpb", positive="1") %>%
     predict(model.train, .)
 ```
+:::
 
-## 1.B
+**1.B**
 
-```{r 1.B, eval=FALSE}
-
+::: cell
+``` {.r .cell-code .number-lines}
 #### R6: mlr3 ####
 
 learner.randomforest <- lrn(
@@ -126,15 +124,15 @@ ensemble.model <- ensemble.pipeline %>>%
 ensemble <- GraphLearner$new(ensemble.model, predict_type="prob")
 model.train <- ensemble$train(training.task)
 model.test <- ensemble$predict(test.task)
-
 ```
+:::
 
-Code Block 2: Generic example of hyperparameter tuning using the default tuning space for XGBoost. We constrained the number of rounds to 250-500 and the max depth to 5-10 based on processing limitations.
+**Code Block 2:** Generic example of hyperparameter tuning using the
+default tuning space for XGBoost. We constrained the number of rounds to
+250-500 and the max depth to 5-10 based on processing limitations.
 
-## 2
-
-```{r 2, eval=FALSE}
-
+::: cell
+``` {.r .cell-code .number-lines}
 #### tuning space ####
 
 xgboost.lts <- lts("classif.xgboost.default",
@@ -162,28 +160,33 @@ xgboost.tnr <- tnr("grid_search", batch_size=50)
 #### optimize ####
 
 xgboost.tnr$optimize(xgboost.ti)
-
 ```
+:::
 
-Code Block 3: Generic example of forward selection using **A)** mlr3fselect; and **B)** our forward selection algorithm. Our variable selection function 'var.selex' calls the function 'ensemble.model' which simply takes a list of training and testing datasets (one for each predictor), fits a model based on the training dataset and calculates perforamnce based on the testing dataset. 
+**Code Block 3:** Generic example of forward selection using **A)**
+mlr3fselect; and **B)** our forward selection algorithm. Our variable
+selection function 'var.selex' calls the function 'ensemble.model' which
+simply takes a list of training and testing datasets (one for each
+predictor), fits a model based on the training dataset and calculates
+perforamnce based on the testing dataset.
 
-## 3.A
+**3.A**
 
-```{r, eval=FALSE}
-
+::: cell
+``` {.r .cell-code .number-lines}
 model.fselect = fselect(
   fselector = fs("sequential", max_features=10),
   task = training.task,
   learner = ensemble,
   resampling = rsmp("holdout"),
   measure = msr("classif.ce"))
-
 ```
+:::
 
-## 3.B
+**3.B**
 
-```{r, eval=FALSE}
-
+::: cell
+``` {.r .cell-code .number-lines}
 ensemble.model <- function(df.train, df.test){
   
   df.prdctr <- df.train %>% select(predictor) %>% distinct() %>% pull()
@@ -308,25 +311,20 @@ result.grid[[i]] <- p.s <- model %>% mutate(n.feat=i)
     write_csv(paste0("var.selex/vs.", iter, ".csv"))
   
 }
-
 ```
+:::
 
 **Code Block 4:** Methods and code for model interpretation.
 
-## 4
-
-```{r, eval=FALSE}
-
+::: cell
+``` {.r .cell-code .number-lines}
 #### explain_mlr3 allows us to easily interpret mlr3 based models
 
 mpb.exp <- explain_mlr3(model=ensemble,
                         data=test.set %>% select(-mpb),
                            y=test.set %>% select(mpb)) 
 
-#### model_profile allows us to create accumulated local dependence profiles;
-#### 'variable_splits_with_obs=TRUE' is an additional useful option as it predicts
-#### all existing unique values in the test data set 
-#### do not use if values are not rounded.
+#### model_profile allows us to create accumulated local dependence profiles; 'variable_splits_with_obs=TRUE' is an additional useful option as it predicts all existing unique values in the test data set (do not use if values are not rounded).
 
 mpb.mp <- model_profile(mpb.exp, type="accumulated", N=1000, variable_splits_with_obs=TRUE)
 
@@ -380,9 +378,5 @@ one.way <- summary.h2$h2_overall$M %>%
     mutate(type="one-way") 
   
 overall <- data.frame(inx="overall", h2=summary.h2$h2$M, type="overall")
-
 ```
-
-
-
-
+:::

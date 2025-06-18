@@ -1,12 +1,11 @@
 ---
-title: "Modeling w/Mike"
-format: 
-  html:
-    code-tools: true
-    code-overflow: wrap
-    code-block-border-left: true    
-    code-line-numbers: true
-
+title: ""
+output:
+  pdf_document: default
+  html_document: default
+date: ""
+editor_options:
+  chunk_output_type: console
 ---
 
 ```{r setup, include=FALSE}
@@ -14,18 +13,15 @@ knitr::opts_chunk$set(echo = TRUE)
 ```
 
 ## Code Blocks
-### Howe and Nelson *in prep.*
-Please cite this manuscript if you use our generic code examples.
+## Howe and Nelson *in prep.*
+### Please cite this manuscript if you use our generic code examples.
 
-<p>
 
 **Code Block 1:** Generic example of model construction using **A)** *S3* objects (mlr) and **B)** *R6* objects (mlr3). In both approaches we are randomly drawing a training (train.set) and test (test.set) dataset from our full dataset (full.dataset). The model stacking ensemble that we use in **B** requires *mlr3pipelines*.
 
-</p>
+**1.A**
 
-## 1.A
-
-```{r 1.A, eval=FALSE}
+```{r 1.A, eval=FALSE, attr.source='.numberLines'}
 
 #### S3: mlr  ####
 
@@ -75,9 +71,9 @@ model.predict <- test.set %>%
     predict(model.train, .)
 ```
 
-## 1.B
+**1.B**
 
-```{r 1.B, eval=FALSE}
+```{r 1.B, eval=FALSE, attr.source='.numberLines'}
 
 #### R6: mlr3 ####
 
@@ -129,13 +125,11 @@ model.test <- ensemble$predict(test.task)
 
 ```
 
-Code Block 2: Generic example of hyperparameter tuning using the default tuning space for XGBoost. We constrained the number of rounds to 250-500 and the max depth to 5-10 based on processing limitations.
+**Code Block 2:** Generic example of hyperparameter tuning using the default tuning space for XGBoost. We constrained the number of rounds to 250-500 and the max depth to 5-10 based on processing limitations.
 
-## 2
+```{r 2, eval=FALSE, attr.source='.numberLines'}
 
-```{r 2, eval=FALSE}
-
-#### tuning space ####
+#### tuning space ###
 
 xgboost.lts <- lts("classif.xgboost.default",
               nrounds=to_tune(250, 500),
@@ -165,11 +159,11 @@ xgboost.tnr$optimize(xgboost.ti)
 
 ```
 
-Code Block 3: Generic example of forward selection using **A)** mlr3fselect; and **B)** our forward selection algorithm. Our variable selection function 'var.selex' calls the function 'ensemble.model' which simply takes a list of training and testing datasets (one for each predictor), fits a model based on the training dataset and calculates perforamnce based on the testing dataset. 
+**Code Block 3:** Generic example of forward selection using **A)** mlr3fselect; and **B)** our forward selection algorithm. Our variable selection function 'var.selex' calls the function 'ensemble.model' which simply takes a list of training and testing datasets (one for each predictor), fits a model based on the training dataset and calculates perforamnce based on the testing dataset. 
 
-## 3.A
+**3.A**
 
-```{r, eval=FALSE}
+```{r, eval=FALSE, attr.source='.numberLines'}
 
 model.fselect = fselect(
   fselector = fs("sequential", max_features=10),
@@ -180,9 +174,9 @@ model.fselect = fselect(
 
 ```
 
-## 3.B
+**3.B**
 
-```{r, eval=FALSE}
+```{r, eval=FALSE, attr.source='.numberLines'}
 
 ensemble.model <- function(df.train, df.test){
   
@@ -219,7 +213,6 @@ ensemble.model <- function(df.train, df.test){
 var.selex <- function(train.df, test.df, max.feat=14, cutoff=0.8, iter=j){
   
   #### correlation matrix ####
-  # NOTE: this is messy and I'll rewrite it at some point
   
   corr.mat <- bind_rows(
     train.df %>% 
@@ -313,9 +306,7 @@ result.grid[[i]] <- p.s <- model %>% mutate(n.feat=i)
 
 **Code Block 4:** Methods and code for model interpretation.
 
-## 4
-
-```{r, eval=FALSE}
+```{r, eval=FALSE, attr.source='.numberLines'}
 
 #### explain_mlr3 allows us to easily interpret mlr3 based models
 
@@ -323,10 +314,7 @@ mpb.exp <- explain_mlr3(model=ensemble,
                         data=test.set %>% select(-mpb),
                            y=test.set %>% select(mpb)) 
 
-#### model_profile allows us to create accumulated local dependence profiles;
-#### 'variable_splits_with_obs=TRUE' is an additional useful option as it predicts
-#### all existing unique values in the test data set 
-#### do not use if values are not rounded.
+#### model_profile allows us to create accumulated local dependence profiles; 'variable_splits_with_obs=TRUE' is an additional useful option as it predicts all existing unique values in the test data set (do not use if values are not rounded).
 
 mpb.mp <- model_profile(mpb.exp, type="accumulated", N=1000, variable_splits_with_obs=TRUE)
 
@@ -382,6 +370,7 @@ one.way <- summary.h2$h2_overall$M %>%
 overall <- data.frame(inx="overall", h2=summary.h2$h2$M, type="overall")
 
 ```
+
 
 
 

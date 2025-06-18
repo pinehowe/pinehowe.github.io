@@ -1,6 +1,6 @@
 ---
 title: "About the Lab"
-image: logo1.png
+image: mike.jpg
 about:
   id: hero-heading
   template: jolla
@@ -26,10 +26,26 @@ about:
 }
 </style>
 
+::::: columns
+::: {.column width="50%"}
+##### Professional Interests:
+-   R {{< fa code >}}
+-   Machine Learning {{< fa sitemap >}}
+-   Forest Entomology {{<fa locust>}}
+-   Forest Ecology {{<fa tree>}}
+-   Disturbance {{< fa fire >}} x {{< fa bug >}}
+-   Climate Change {{< fa sun-plant-wilt >}}
+:::
 
-<p class="white-text">
+::: {.column width="50%"}
+##### Personal Interests:
 
-Welcome to the <strong>Forest Insect and Disturbance Lab</strong> at Utah State University. We study how...
-
-</p>
+-   Nordic skiing {{< fa person-skiing-nordic >}}
+-   mountain biking {{< fa person-biking >}}
+-   trail running {{<fa person-running>}}
+-   soccer {{< fa futbol >}}
+-   travel {{< fa plane-departure >}}
+-   mountains {{<fa mountain-sun>}}
+:::
+:::::
 
