@@ -5,7 +5,7 @@ project:
 website:
   google-analytics: "G-FYLWY5C3EV"
   title: "The Forest Insect and Disturbance Lab"
-  favicon: logo1.png # NOTE: that the `favicon` is a `website` level option (not under `navbar`)
+  favicon: lab_logo.png # NOTE: that the `favicon` is a `website` level option (not under `navbar`)
   navbar:
     background: "#439775"
     search: true
