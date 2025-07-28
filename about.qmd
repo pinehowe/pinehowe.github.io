@@ -17,6 +17,7 @@ about:
       href: https://github.com
 ---
 
+```{=html}
 <style>
   body {
   background-image: url("rainbow.jpg");
@@ -25,10 +26,12 @@ about:
   background-repeat: no-repeat;
 }
 </style>
+```
 
 ::::: columns
 ::: {.column width="50%"}
 ##### Professional Interests:
+
 -   R {{< fa code >}}
 -   Machine Learning {{< fa sitemap >}}
 -   Forest Entomology {{<fa locust>}}
@@ -48,4 +51,3 @@ about:
 -   mountains {{<fa mountain-sun>}}
 :::
 :::::
-

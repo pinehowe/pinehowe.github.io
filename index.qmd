@@ -28,26 +28,39 @@ about:
 }
 </style>
 
-
 <p class="white-text">
 
 Welcome to the <strong>Forest Insect and Disturbance Lab</strong> at Utah State University! Our research is focused on how weather, climate, and landscapes affect forest insect herbivores, disturbances, and forest ecosystems. We are especially interested in identifying the mechanisms of <strong> where, when, and how</strong> population irruptions by native forest insect herbivores start to better forecast future outbreaks. 
 
 </p>
 
-## Research Themes 
+---
 
-A) identifying the mechanisms of insect population irruptions at local and landscape scales
+### Research Themes 
 
-B) modeling the consequences of insect-caused disturbance and climate change across forested ecosystems
+A) exploring the mechanisms of insect population irruptions at local and landscape scales
 
-C) expanding our toolbox for quantifying and forecasting climate change impacts across ecosystems and continents
+B) quantifying and identifying native and invasive threats to healthy forests in Utah and beyond
 
-## Lab Ethos
+C) modeling the consequences of insect-caused disturbance and climate change across forested ecosystems
+
+D) exploring forest dynamics in a changing world
+
+E) expanding our toolbox for explaining and forecasting climate change impacts across ecosystems and continents
+
+---
+
+### Lab Ethos
 
 We believe that:
 
 A) science is for everyone! 
 
-B) safety and well being are 
+B) safety and well-being are vital for success
+
+C) transparency and accountability improve teamwork
+
+D) science is meant to be shared
+
+E) self-improvement is nonlinear, but continuous
 

@@ -1,50 +1,40 @@
 ---
-title: "Author"
-image: profile.png
-about:
-  id: hero-heading
-  template: trestles
-  image-shape: rectangle
-  links:
-    - icon: twitter
-      text: Twitter
-      href: https://twitter.com
-    - icon: linkedin
-      text: LinkedIn
-      href: https://linkedin.com
-    - icon: github
-      text: Github
-      href: https://github.com
+title: "Publications"
+listing: 
+  contents: posts # this name must match the name of the folder you created in step #1; here, all Quarto docs in the `posts` directory will be included on your listing page
+  type: grid # or `default` or `table`; each type has its own set of yaml options to include
+  sort: "date desc" # can also sort on more than one field
+  categories: true # allows you to sort posts by assigned categories 
 ---
 
-:::callout-note
-## Template for about page
+<style>
+  body {
+  background-image: url("spruce.jpg");
+  box-shadow: inset 0 0 0 1000px rgba(0,0,0,.6);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+</style>
 
-It is possible to use different templates for the About page. Check this [link](https://quarto.org/docs/websites/website-about.html) to find out more.
+**Howe, M.**, Hart, S. J., and Trowbridge, A. M. (**2024**). Budworms, beetles and wildfire: Disturbance interactions influence the likelihood of insect-caused disturbances at a subcontinental scale. Journal of Ecology, 00, 1–18. https://doi.org/10.1111/1365-2745.14408
 
-:::
+**Howe, M.**, Graham, E.E. and Nelson, K.N. (**2024**). Defoliator outbreaks track with warming across the Pacific coastal temperate rainforest of North America. Ecography, 2024: e07370. https://doi.org/10.1111/ecog.07370
 
+**Howe, M.**, Yanchuk, A., Wallin, K.F., and Raffa, K.F. (**2024**). Quantification of heritable variation in multiple lodgepole pine chemical and physical traits that contribute to defense against mountain pine beetle (*Dendroctonus ponderosae*). Forest Ecology and Management, 553, 121660. https://doi.org/10.1016/j.foreco.2023.121660
 
-::: {#hero-heading}
+**Howe, M.**, Peng, L. and Carroll, A. L. (**2022**). Landscape predictions of western balsam bark beetle activity implicate warm temperatures, a longer growing season, and drought in widespread irruptions across British Columbia. Forest Ecology and Management 508: 120047. https://doi.org/10.1016/j.foreco.2022.120047
 
-I am a researcher at University of Oslo. 
+**Howe, M.**, Raffa, K. F., Aukema, B. H., Gratton, C. and Carroll, A. L. (**2022**). Numbers matter: how irruptive bark beetles initiate transition to self-sustaining behavior during landscape-altering outbreaks. Oecologia 198: 681–698. https://doi.org/10.1007/s00442-022-05129-4
 
-My work is about Electronic Health Records.
+**Howe, M.**, Carroll, A., Gratton, C., & Raffa, K. F. (**2021**). Climate-induced outbreaks in high-elevation pines are driven primarily by immigration of bark beetles from historical hosts. Global change biology, 27(22), 5786–5805. https://doi.org/10.1111/gcb.15861
 
+**Howe, M.**, Mason, C.J., Gratton, C., Keefover-Ring, K., Wallin, K., Yanchuk, A., Zhu, J. and Raffa, K.F. (**2020**), Relationships between conifer constitutive and inducible defenses against bark beetles change across levels of biological and ecological scale. Oikos, 129: 1093-1107. https://doi.org/10.1111/oik.07242
 
-## Education 
+**Howe, M.**, Keefover-Ring, K., & Raffa, K. F. (**2018**). Pine Engravers Carry Bacterial Communities Whose Members Reduce Concentrations of Host Monoterpenes With Variable Degrees of Redundancy, Specificity, and Capability. Environmental entomology, 47(3), 638–645. https://doi.org/10.1093/ee/nvy032
 
-University of Oslo | Oslo, Norway
+\vspace{3pt}
+\hrule
 
-PhD in Biostatistics | Oct 2022
+Six DL, Trowbridge A, **Howe M,** Perkins D, Berglund E, Brown P, Hicke JA and Balasubramanian G (**2021**). Growth, Chemistry, and Genetic Profiles of Whitebark Pine Forests Affected by Climate-Driven Mountain Pine Beetle Outbreaks. Front. For. Glob. Change 4:671510. doi: 10.3389/ffgc.2021.671510
 
-University of Oslo | Oslo, Norway
-
-MSc in Statistics | June 2018
-
-## Experience
-
-I have developed X R packages, published Y papers. 
-
-:::
-
+Kittelson, P. M., Wagenius, S., Nielsen, R., Qazi, S., **Howe, M.**, Kiefer, G., & Shaw, R. G. (**2015**). How functional traits, herbivory, and genetic diversity interact in Echinacea: implications for fragmented populations. Ecology, 96(7), 1877–1886. https://doi.org/10.1890/14-1687.1
